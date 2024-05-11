@@ -168,7 +168,7 @@
 		</div>
 		<div class="right">panzieleniak&copy;wszelkie prawa zastrzeżone
 			<br />
-				kreacja: <a href="https://bbronkowski.000webhostapp.com/" target="_blank">Bartłomiej Bronkowski - portfolio</a>
+				kreacja: <a href="https://pchelka90.github.io/portfolio-website/" target="_blank">Bartłomiej Bronkowski - portfolio</a>
 		</div>
 				
 	</div>
