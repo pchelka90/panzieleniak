@@ -22,5 +22,9 @@
         "psr-4": {
             "Panzieleniak\\": "/"
         }
+    },
+    "repositories": {
+        "type": "vcs",
+        "url": "https://github.com/pchelka90/panzieleniak"
     }
 }
