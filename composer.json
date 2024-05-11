@@ -14,8 +14,5 @@
             "type": "vcs",
             "url": "https://git.heroku.com/pan-zieleniak.git"
         }
-    ],
-    "require": {
-        "pchelka90/panzieleniak": "dev-bugfix"
-    }
+    ]
 }
