@@ -1,13 +1,11 @@
-"repositories": [
-    {
-        "type": "composer",
-        "url": "https://pan-zieleniak-4e53d4c08735.herokuapp.com/"
-    },
-    {
-        "packagist.org": false
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pchelka90/panzieleniak"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "dev-bugfix"
     }
-],
-"require": {
-    "pchelka90/panzieleniak.pl": "^1.0",
-    "pchelka90/panzieleniak.pl": "dev-master"
 }
