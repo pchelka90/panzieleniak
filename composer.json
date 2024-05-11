@@ -1,6 +1,11 @@
 "repositories": [
-    {"type": "composer", "url": "https://pan-zieleniak-4e53d4c08735.herokuapp.com/"},
-    {"packagist.org": false}
+    {
+        "type": "composer",
+        "url": "https://pan-zieleniak-4e53d4c08735.herokuapp.com/"
+    },
+    {
+        "packagist.org": false
+    }
 ],
 "require": {
     "pchelka90/panzieleniak.pl": "^1.0",
