@@ -16,15 +16,7 @@
         },
     "require": {
         "php": ">=7.4",
-        "ext-mbstring": "ext-mysqli"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "https://git.heroku.com/pan-zieleniak.git"
-        }
-    ],
-    "require": {
-        "vendor/panzieleniak": "dev-master"
+        "ext-mbstring": "ext-mysqli",
+        "vendor/panzieleniak": "main"
     }
 }
