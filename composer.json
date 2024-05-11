@@ -1,4 +1,20 @@
 {
+    "license": "My own security policy"
+}
+
+{
+    "authors": [
+        {
+            "name": "Bartłomiej B.",
+            "email": "bartlomiejbronkowski90@gmail.com",
+            "homepage": "https://pchelka90.github.io/portfolio-website/",
+            "role": "Owner"
+        }
+    ]
+}
+
+
+{
     "repositories": [
         {
             "type": "vcs",
@@ -6,6 +22,6 @@
         }
     ],
     "require": {
-        "monolog/monolog": "dev-bugfix"
+        "pchelka90/panzieleniak": "dev-bugfix"
     }
 }
