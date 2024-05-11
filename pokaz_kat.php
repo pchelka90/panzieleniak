@@ -210,7 +210,7 @@
 		</div>
 		<div class="right">panzieleniak&copy;wszelkie prawa zastrzeżone
 			<br />
-			kreacja: <a href="panzieleniak.php">Bartłomiej Bronkowski - portfolio</a>
+			kreacja: <a href="https://pchelka90.github.io/portfolio-website/">Bartłomiej Bronkowski - portfolio</a>
 		</div>
 				
 	</div>
