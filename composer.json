@@ -19,6 +19,8 @@
         "ext-mbstring": "ext-mysqli"
     },
     "autoload": {
-        "psr-4": { "Panzieleniak\\": "/"
+        "psr-4": {
+            "Panzieleniak\\": "/"
+        }
     }
 }
