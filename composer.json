@@ -2,7 +2,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/pchelka90/panzieleniak"
+            "url": "https://git.heroku.com/pan-zieleniak.git"
         }
     ],
     "require": {
