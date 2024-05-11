@@ -61,4 +61,6 @@
 	
 	$telefon = $_POST['telefon'];
 	$haslo = $_POST['pass'];
+
+	tworz_stopke_html();
 ?>
