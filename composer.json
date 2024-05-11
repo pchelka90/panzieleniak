@@ -17,5 +17,8 @@
     "require": {
         "php": ">=7.4",
         "ext-mbstring": "ext-mysqli"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
     }
 }
