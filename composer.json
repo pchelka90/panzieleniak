@@ -19,11 +19,6 @@
         "ext-mbstring": "ext-mysqli"
     },
     "autoload": {
-        "psr-4": {
-            "": "/" 
-        },
-        "psr-0": {
-            "UniqueGlobalClass": ""
-        }
+        "psr-4": { "Panzieleniak\\": "/"
     }
 }
