@@ -11,8 +11,8 @@
         $_SESSION['calkowita_wartosc'] = '0.00';
         }
     }
-?>
-<!DOCTYPE HTML>
+
+	    <!DOCTYPE HTML>
 <html lang="pl">
 <head>
 	<meta charset="utf-8">
@@ -64,6 +64,8 @@
 	
 	  </div>
       <div class="cleaner"></div>
+?>
+	    
 <?php
   if($tytul) {
     tworz_tytul_html($tytul);
