@@ -1,5 +1,6 @@
 {
-    "name": "panzieleniak/panzieleniak",
+    "config": "root-only",
+    "name": "panzieleniak",
     "description": "repository for panzieleniak",
     "version": "v1.0.0",
     "license": "proprietary",
@@ -15,6 +16,6 @@
         },
     "require": {
         "php": ">=7.4",
-        "ext-mbstring": "composer show --platform"
+        "ext-mbstring": "ext-mysqli"
     }
 }
