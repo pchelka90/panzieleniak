@@ -1,37 +1,8 @@
-{
-    "repositories": [
-        {
-            "packagist.org": false
-            "type": "composer",
-            "url": "https://pan-zieleniak-4e53d4c08735.herokuapp.com/",
-            "options": {
-                "http": {
-                    "timeout": 60
-                }
-            }
-        }
-    ],
-    "require": {
-        "acme/package": "^1.0"
-    }
-}
-
-{
-    "packages": {
-        "vendor/package-name": {
-            "dev-master": { @composer.json },
-            "1.0.x-dev": { @composer.json },
-            "0.0.1": { @composer.json },
-            "1.0.0": { @composer.json }
-        }
-    }
-}
-
-{
-    "name": "smarty/smarty",
-    "version": "3.1.7",
-    "dist": {
-        "url": "https://www.smarty.net/files/Smarty-3.1.7.zip",
-        "type": "zip"
-    }
+"repositories": [
+    {"type": "composer", "url": "https://pan-zieleniak-4e53d4c08735.herokuapp.com/"},
+    {"packagist.org": false}
+],
+"require": {
+    "pchelka90/panzieleniak.pl": "^1.0",
+    "pchelka90/panzieleniak.pl": "dev-master"
 }
