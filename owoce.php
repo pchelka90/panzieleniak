@@ -375,17 +375,9 @@
 
 	<div class="footer">
 				
-		<div class="lefty">
-			<a href="panzieleniak.php">panzieleniak.pl</a>
-			<br />
-				<a href="mailto:kontakt@panzieleniak.pl">kontakt@panzieleniak.pl</a>
-			<br />
-				+48 601 150 149
-		</div>
-		<div class="right">panzieleniak&copy;wszelkie prawa zastrzeżone
-			<br />
-				kreacja: <a href="https://pchelka90.github.io/portfolio-website/" target="_blank">Bartłomiej Bronkowski - portfolio</a>
-		</div>
+		<?php
+			tworz_stopke_html();
+		?>
 				
 	</div>
 
