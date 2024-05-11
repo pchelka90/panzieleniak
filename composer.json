@@ -18,12 +18,12 @@
         "php": ">=7.4",
         "ext-mbstring": "ext-mysqli"
     },
-    "repositories": [
+    "repositories": {
         {
             "type": "vcs",
             "url":  "https://git.heroku.com/pan-zieleniak.git"
         }
-    ],
+    },
     "require": {
         "vendor/panzieleniak": "dev-master"
     }
