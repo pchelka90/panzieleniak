@@ -189,13 +189,13 @@
 		<div class="lefty">
 			<a href="panzieleniak.php">panzieleniak.pl</a>
 			<br />
-				<a href="mailto:kontakt@panzieleniak.pl">kontakt@panzieleniak.pl</a>
+				<a href="mailto:bartlomiejbronkowski90@gmail.com">kontakt@panzieleniak.pl</a>
 			<br />
-				+48 601 150 149
+				+48 536 065 344
 		</div>
 		<div class="right">panzieleniak&copy;wszelkie prawa zastrzeżone
 			<br />
-				kreacja: <a href="https://bbronkowski.000webhostapp.com/" target="_blank">Bartłomiej Bronkowski - portfolio</a>
+				kreacja: <a href="https://pchelka90.github.io/portfolio-website/" target="_blank">Bartłomiej Bronkowski - portfolio</a>
 		</div>
 				
 	</div>
