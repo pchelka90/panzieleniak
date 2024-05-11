@@ -19,6 +19,6 @@
         "ext-mbstring": "ext-mysqli"
     },
     "autoload": {
-        "psr-4": { "": "src/" }
+        "psr-4": { "": "/" }
     }
 }
