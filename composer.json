@@ -20,6 +20,6 @@
             "url": "https://git.heroku.com/pan-zieleniak.git"
         },
     "require": {
-        "php": "^7.2.5 || ^7.4",
+        "php": "^7.2.5 || ^7.4"
     }
 }
