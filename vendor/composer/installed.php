@@ -3,7 +3,7 @@
         'name' => 'pchelka90/panzieleniak',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '61de45a45b0e61438f26df7ebdad260aa130b551',
+        'reference' => 'c98616ddb9ca2fc227e06884c57e3cf5da5ce216',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'pchelka90/panzieleniak' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '61de45a45b0e61438f26df7ebdad260aa130b551',
+            'reference' => 'c98616ddb9ca2fc227e06884c57e3cf5da5ce216',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
