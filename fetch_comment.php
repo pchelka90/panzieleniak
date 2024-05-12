@@ -1,6 +1,6 @@
 <?php
 
-    $connect = new PDO('mysql:host=localhost;dbname=id17896983_panzieleniak', 'id17896983_pchelka_panzieleniak', 'Callisto123.');
+    $connect = new PDO('mysql:host=localhost;dbname=', '', '');
 
     $query = "SELECT * FROM tbl_comment WHERE parent_comment_id = '0' ORDER BY comment_id DESC";
 

@@ -10,7 +10,7 @@
   }
 
   function prawid_email($adres) {
-    if (ereg("^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$", $adres)) {
+    if (mb_ereg("^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$", $adres)) {
       return true;
     } else {
       return false;
