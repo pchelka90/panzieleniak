@@ -1,6 +1,5 @@
 {
     "name": "pchelka90/panzieleniak",
-    "version": "v1.0.0",
     "type": "library",
     "description": "repository for panzieleniak, online grocery shop for neighbourhood",
     "keywords": [
@@ -21,8 +20,6 @@
             "url": "https://git.heroku.com/pan-zieleniak.git"
         },
     "require": {
-        "php": "^7.4",
-        "ext-mbstring": "ext-mysqli",
-        "vendor/panzieleniak": "main"
+        "php": "^7.2.5 || ^7.4",
     }
 }
