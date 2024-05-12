@@ -15,10 +15,6 @@
             "homepage": "https://pchelka90.github.io/portfolio-website/",
             "role": "developer"
         },
-    "repositories": {
-            "type": "vcs",
-            "url": "https://git.heroku.com/pan-zieleniak.git"
-        },
     "require": {
         "php": "^7.2.5 || ^7.4"
     }
