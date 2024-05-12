@@ -16,8 +16,5 @@
       "homepage": "https://pchelka90.github.io/portfolio-website/",
       "role": "developer"
     }
-  ],
-  "require": {
-    "php": "^7.4 || ^8.1.1"
-  }
+  ]
 }
