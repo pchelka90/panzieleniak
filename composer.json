@@ -9,12 +9,14 @@
     ],
     "homepage": "https://pan-zieleniak-4e53d4c08735.herokuapp.com/",
     "license": "proprietary",
-    "authors": {
+    "authors": [
+        {
             "name": "Bartłomiej B.",
             "email": "bartlomiejbronkowski90@gmail.com",
             "homepage": "https://pchelka90.github.io/portfolio-website/",
             "role": "developer"
-        },
+        }
+    ],
     "require": {
         "php": "^7.2.5 || ^7.4"
     }
