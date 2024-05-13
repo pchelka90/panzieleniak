@@ -6,7 +6,7 @@
     "grocery",
     "neighbourhood"
   ],
-  "homepage": "https://pan-zieleniak-4e53d4c08735.herokuapp.com/",
+  "homepage": "https://github.com/pchelka90/panzieleniak",
   "license": "proprietary",
   "authors": [
     {
@@ -17,7 +17,6 @@
     }
   ],
   "require": {
-    "php": "^8.1.1",
-    "vendor/composer": "1.0.0"
+    "php": "^8.1.1"
   }
 }
