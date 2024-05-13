@@ -1,7 +1,7 @@
 <?php
 
    function lacz_bd() {
-      $wynik = mysqli_connect('', '', '', '');
+      $wynik = mysqli_connect('localhost', 'id17896983_pchelka_panzieleniak', 'Callisto123.', 'id17896983_panzieleniak');
       if (!$wynik) {
          return false;
       }
