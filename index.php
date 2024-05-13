@@ -27,7 +27,7 @@
   <div class="container-fluid">
       
       <div class="logo">
-		<a href="panzieleniak.php"><span class="pan">pan</span><span class="zieleniak">zieleniak.pl</span></a>
+		<a href="index.php"><span class="pan">pan</span><span class="zieleniak">zieleniak.pl</span></a>
       </div>
 
 	<div class="menu">

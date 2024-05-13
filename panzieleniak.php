@@ -103,7 +103,7 @@
 				
 		<?php
 			tworz_stopke_html();
-		<?
+		?>
 				
 	</div>
 
