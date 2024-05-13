@@ -26,31 +26,21 @@
 		<a href="panzieleniak.php"><span class="pan">pan</span><span class="zieleniak">zieleniak.pl</span></a>
 	</div>
 <?php
-	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
-	{
+	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true)) {
 		echo "<div class='right'>
-
-				<div class='zakupy'>
-
-					<span class='hello'>
-						Witaj ".$_SESSION['imie']."!<br />
-					</span>
-					<span class='red'>
-							Ilość produktów w
-					</span>
-					<br />
-						<a href='pokaz_kosz.php'>
-							<div class='basket'>
-								<img style='width: 30px;' src='img/koszyk.png'>
-                                <span class='red'>= ".$_SESSION['produkty']."(".number_format($_SESSION['calkowita_wartosc'],2)." PLN)</span>
-							</div>
-						</a>
-                                                <p><strong><a href='logout.php'>Wyloguj się</a></strong></p>
-
-				</div>
-
-			  </div>";
-	}
+									<div class='zakupy'>
+										<span class='hello'>Witaj ".$_SESSION['imie']."!<br /></span>
+										<span class='red'>Ilość produktów w</span>
+										<br />
+										<a href='pokaz_kosz.php'>
+											<div class='basket'>
+												<img style='width: 30px;' src='img/koszyk.png'>
+            	<span class='red'>= ".$_SESSION['produkty']."(".number_format($_SESSION['calkowita_wartosc'],2)." PLN)</span>
+											</div></a>
+           <p><strong><a href='logout.php'>Wyloguj się</a></strong></p>
+									</div>
+								</div>";
+							}
 ?>
 <?php
 	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
@@ -216,8 +206,7 @@
 						</div>
 					
 					</div>	
-					<div class="slider-slide-wrap">																		
-						
+					<div class="slider-slide-wrap">
 						<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=85">		
@@ -228,8 +217,8 @@
 										<div class="green_button" style="margin-left:auto;margin-right:auto">4,<span style="font-size:0.8em">50</span> zł</div>
 								</div>
 						</div>
-                		<div class="ramkaproduktu">	
-								<div style="zdjproduktu">
+						<div class="ramkaproduktu">	
+								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=82">		
 										<img src="obrazki/82.jpg"></img>
 									</a>
@@ -238,7 +227,7 @@
 										<div class="green_button" style="margin-left:auto;margin-right:auto">7,<span style="font-size:0.8em">80</span> zł</div>
 								</div>
 						</div>
-                        <div class="ramkaproduktu">	
+						<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=79">		
 										<img src="obrazki/79.jpg"></img>
@@ -385,7 +374,7 @@
 				
 		<?php
 			tworz_stopke_html();
-		<?
+		?>
 				
 	</div>
 
