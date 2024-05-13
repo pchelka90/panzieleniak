@@ -1,7 +1,6 @@
 <?php
     function tworz_naglowek_html($tytul = '') {
     // wyświetlenie nagłówka HTML
-
     // zadeklarowanie zmiennych sesji zastosowanych w funkcji
     if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true)) {
         if(!$_SESSION['produkty']) {
@@ -11,61 +10,8 @@
         $_SESSION['calkowita_wartosc'] = '0.00';
         }
     }
+    ?>
 
-	    <!DOCTYPE HTML>
-<html lang="pl">
-<head>
-	<meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Pan Zieleniak - internetowy warzywniak: świeże warzywa i owoce. Wrocław - Nowy Dwór!</title>	
-        <meta name="description" content="Serwis poświęcony firmie Panu Zieleniaku. Dowozimy świeże warzywa i owoce na terenie Wrocławia i okolic. Zapraszamy, a wręcz zachęcamy do zakupów!">
-	<meta name="keywords" content="warzywniak wrocław, warzywniak na dowóz, świeże warzywa i owoce na dowóz, warzywa dowóz wrocław, warzywa i owoce dowóz wrocław, warzywniak zakupy online, świeże warzywa i owoce zakupy online, warzywa i owoce online, warzywa online, owoce online">
-
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/fontello.css" type="text/css">
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	
-</head>
-<body>
-  <div class="container-fluid">
-      
-      <div class="logo">
-    	<a href="panzieleniak.php"><span class="pan">pan</span><span class="zieleniak">zieleniak.pl</span></a>
-      </div>
-
-	  <div class="menu">
-	
-		<button class="action close">
-			<i class="icon-list-bullet"></i>
-		</button>
-
-		<ul class="button-menu">
-			<li><a href="panzieleniak.php" class="action-trash">Strona główna</a></li>
-			<li><a href="warzywa.php" class="action sZweryfikowany">Warzywa</a></li>
-			<li><a href="owoce.php" class="action sDuplikat">Owoce</a></li>
-			<li><a href="nabialibakalie.php" class="action sOdrzucony">Nabiał oraz bakalie</a></li>
-			<li><a href="warunkizakupow.php" class="action sRezygnacja">Warunki zakupów</a></li>
-			<li><a href="kontakt.php" class="action sRezygnacja">Kontakt</a></li>
-			<li><a href="regulamin.php" class="action sRezygnacja">Regulamin</a></li>
-		</ul>
-		
-	  </div>
-	
-	  <div class="right">
-	
-		<i class="icon-search-1"></i>
-		
-			<form action="wyniki.php" method="post">
-				<div class="input_box szukaj">
-					<input type="text" name="wyrazenie" placeholder="Szukaj produktu...">
-				</div>
-			</form>
-	
-	  </div>
-      <div class="cleaner"></div>
-?>
-	    
 <?php
   if($tytul) {
     tworz_tytul_html($tytul);
