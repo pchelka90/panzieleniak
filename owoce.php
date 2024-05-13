@@ -381,34 +381,29 @@
 	</div>
 
   </div>
-	
-        <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
-			<script type="text/javascript">
-				$(document).ready(function() {
+		
+		<script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
 				$("#klik").click(function () { 
-				$('#pokaz').slideToggle('slow');
+					$('#pokaz').slideToggle('slow');
 				});
-				});
-			</script>
-
-			<script type="text/javascript">
-				$(document).ready(function() {
-
-			  var n = $(".slider-slide-wrap").length,
+			});
+		</script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var n = $(".slider-slide-wrap").length,
 				width = 725,
 				newwidth = width * n;
+					$('.slide-wrap').css({
+						'width': newwidth
+					});
+					$(".slider-slide-wrap").each(function(i) {
+						var thiswid = 725;
+						$(this).css({'left': thiswid * i});
+					});
 
-			  $('.slide-wrap').css({
-				'width': newwidth
-			  });
-
-			  $(".slider-slide-wrap").each(function(i) {
-				var thiswid = 725;
-				$(this).css({
-				  'left': thiswid * i
-				});
-
-			  });
 			  /*on scroll move the indicator 'shown' class to the
 			  most visible slide on viewport
 			  */
@@ -423,6 +418,7 @@
 				  }
 				});
 			  });
+
 			  /* on left button click scroll to the previous sibling of the current visible slide */
 			  $('#slider-left').click(function() {
 				var $prev = $('.slide-wrap .shown').prev();
@@ -433,6 +429,7 @@
 				  }, 'slow');
 				}
 			  });
+
 			  /* on right button click scroll to the next sibling of the current visible slide */
 			  $('#slider-right').click(function() {
 				var $next = $('.slide-wrap .shown').next();
@@ -468,6 +465,6 @@
         </script>
   	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
   	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+	</body>
 
-</body>
 </html>
