@@ -17,7 +17,7 @@
     }
   ],
   "require": {
-    "php": "^7.4.0",
-    "another-vendor/package": "1.0.0"
+    "php": "^8.1.1",
+    "vendor/package": "1.0.0"
   }
 }
