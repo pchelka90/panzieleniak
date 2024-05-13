@@ -12,7 +12,7 @@
         <meta name="description" content="Serwis poświęcony firmie Panu Zieleniaku. Dowozimy świeże warzywa i owoce na terenie Wrocławia i okolic. Zapraszamy, a wręcz zachęcamy do zakupów!" />
 	<meta name="keywords" content="warzywniak wrocław, warzywniak na dowóz, świeże warzywa i owoce na dowóz, warzywa dowóz wrocław, warzywa i owoce dowóz wrocław, warzywniak zakupy online, świeże warzywa i owoce zakupy online, warzywa i owoce online, warzywa online, owoce online" />
 
-		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="style.css" type="text/css">
                 <link rel="canonical" href="https://pan-zieleniak-4e53d4c08735.herokuapp.com/"/>
                 <link rel="preload" href="font/lato-italic-webfont.woff" as="font" type="font/woff" crossorigin>
                 <link rel="preload" href="font/lato-italic-webfont.woff2" as="font" type="font/woff2" crossorigin>
