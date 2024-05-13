@@ -5,53 +5,52 @@
 <!DOCTYPE HTML>
 <html lang="pl">
 <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	    <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Pan Zieleniak - internetowy warzywniak: świeże warzywa i owoce. Wrocław - Nowy Dwór!</title>
-        <meta name="description" content="Serwis poświęcony firmie Panu Zieleniaku. Dowozimy świeże warzywa i owoce na terenie Wrocławia i okolic. Zapraszamy, a wręcz zachęcamy do zakupów!" />
-		<meta name="keywords" content="warzywniak wrocław, warzywniak na dowóz, świeże warzywa i owoce na dowóz, warzywa dowóz wrocław, warzywa i owoce dowóz wrocław, warzywniak zakupy online, świeże warzywa i owoce zakupy online, warzywa i owoce online, warzywa online, owoce online" />
-			
+	<link rel="stylesheet" href="style.css" type="text/css">
+ <meta charset="utf-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Serwis poświęcony firmie Panu Zieleniaku. Dowozimy świeże warzywa i owoce na terenie Wrocławia i okolic. Zapraszamy, a wręcz zachęcamy do zakupów!" />
+	<meta name="keywords" content="warzywniak wrocław, warzywniak na dowóz, świeże warzywa i owoce na dowóz, warzywa dowóz wrocław, warzywa i owoce dowóz wrocław, warzywniak zakupy online, świeże warzywa i owoce zakupy online, warzywa i owoce online, warzywa online, owoce online" />
+ 
+	<title>Pan Zieleniak - internetowy warzywniak: świeże warzywa i owoce. Wrocław - Nowy Dwór!</title>
+
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-		<link rel="stylesheet" href="style.css" type="text/css">
 		<link rel="stylesheet" href="css/fontello.css" type="text/css">
-                <link href='http://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         
 </head>
+
 <body>
 
-  <div class="container-fluid">
-	
-	<div class="logo" style="float:left">
-		<a href="panzieleniak.php"><span class="pan">pan</span><span class="zieleniak">zieleniak.pl</span></a>
-	</div>
+	<div class="container-fluid">
+		<div class="logo" style="float:left">
+			<a href="panzieleniak.php"><span class="pan">pan</span><span class="zieleniak">zieleniak.pl</span></a>
+		</div>
+
 <?php
 	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
 	{
 		echo "<div class='right'>
-
-				<div class='zakupy'>
-
-					<span class='hello'>
-						Witaj ".$_SESSION['imie']."!<br />
-					</span>
-					<span class='red'>
-							Ilość produktów w
-					</span>
-					<br />
-						<a href='pokaz_kosz.php'>
-							<div class='basket'>
-								<img style='width: 30px;' src='img/koszyk.png'>
-                                <span class='red'>= ".$_SESSION['produkty']."(".number_format($_SESSION['calkowita_wartosc'],2)." PLN)</span>
-							</div>
-						</a>
-                                                <p><strong><a href='logout.php'>Wyloguj się</a></strong></p>
-
-				</div>
-
-			  </div>";
+									<div class='zakupy'>
+										<span class='hello'>
+											Witaj ".$_SESSION['imie']."!<br />
+										</span>
+										<span class='red'>
+												Ilość produktów w
+										</span>
+										<br />
+											<a href='pokaz_kosz.php'>
+												<div class='basket'>
+													<img style='width: 30px;' src='img/koszyk.png'>
+													<span class='red'>= ".$_SESSION['produkty']."(".number_format($_SESSION['calkowita_wartosc'],2)." PLN)</span>
+												</div>
+											</a>
+											<p><strong><a href='logout.php'>Wyloguj się</a></strong></p>
+									</div>
+								</div>";
 	}
 ?>
+
 <?php
 	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
 	{
