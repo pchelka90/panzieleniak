@@ -1,6 +1,5 @@
 {
   "name": "pchelka90/panzieleniak",
-  "type": "library",
   "description": "repository for panzieleniak, online grocery shop for neighbourhood",
   "keywords": [
     "panzieleniak",
@@ -16,5 +15,9 @@
       "homepage": "https://pchelka90.github.io/portfolio-website/",
       "role": "developer"
     }
-  ]
+  ],
+  "require": {
+    "php": "^7.4.0",
+    "another-vendor/package": "1.0.0"
+  }
 }
