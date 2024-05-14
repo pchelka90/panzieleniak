@@ -141,30 +141,27 @@
 	</div>
 
   </div>
-	
-        <script src="js/jquery-3.5.0.min.js"></script>
-	   <script type="text/javascript">
-				$(document).ready(function() {
-				$("#klik").click(function () { 
+		
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$("#klik").click(function () {
 				$('#pokaz').slideToggle('slow');
+			});
+		});
+		</script>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.logowanie').addClass("hidden");
+				$('.logowanie').click(function() {
+					var $this = $(this);
+					if ($this.hasClass("hidden")) {
+						$(this).removeClass("hidden").addClass("visible");
+					}
 				});
-				});
-	   </script>
-
-	   <script type="text/javascript">
-				$(document).ready(function(){
-					$('.logowanie').addClass("hidden");
-
-					$('.logowanie').click(function() {
-						var $this = $(this);
-
-						if ($this.hasClass("hidden")) {
-							$(this).removeClass("hidden").addClass("visible");
-
-						} 
-					});
-				});
-	    </script>
+			});
+		</script>
 
 	    <script type="text/javascript">
 						onEventShowMenu = function(event) {

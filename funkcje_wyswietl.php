@@ -20,16 +20,17 @@
 
 function tworz_stopke_html() {
   // wyświetlenie stopki HTML
-  echo "<div style='float:left'>
-                <a href='panzieleniak.php'>panzieleniak.pl</a><br />
-		<a href='mailto:bartlomiejbronkowski90@gmail.com'>kontakt@panzieleniak.pl</a><br />
-		    +48 536 065 344
-	    </div>
-	    <div style='float:right'>panzieleniak&copy;wszelkie prawa zastrzeżone<br />
-	        kreacja: <a href='https://pchelka90.github.io/portfolio-website/' target='_blank'>Bartłomiej Bronkowski - portfolio</a>
-	    </div>
-				
-	</div>"
+  echo "<div style='float:lefty'>
+          <a href='panzieleniak.php'>panzieleniak.pl</a>
+          <br />
+		      <a href='mailto:bartlomiejbronkowski90@gmail.com'>kontakt@panzieleniak.pl</a>
+          <br />
+		      +48 536 065 344
+        </div>
+        <div style='float:right'>panzieleniak&copy;wszelkie prawa zastrzeżone
+        <br />
+	      kreacja: <a href='https://pchelka90.github.io/portfolio-website/' target='_blank'>Bartłomiej Bronkowski - portfolio</a>
+	      </div>"
 ?>
 
 	    
