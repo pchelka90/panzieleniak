@@ -353,14 +353,14 @@ function wyswietl_form_karty($imie) {
 
 
 
-function wyswietl_koszyk($koszyk, $zmiana = true, $images = 1) {
+function wyswietl_koszyk($koszyk, $zmiana = true, $obrazek = 1) {
   // wyświetlenie zawartości koszyka
   // opcjonalnie pozwala na zmiany (true lub false)
   // opcjonalnie dołącza images(1 — tak, 0 — nie)
 
   echo "<table border = \"0\" width = \"100%\" cellspacing = \"0\">
         <form action = \"pokaz_kosz.php\" method = \"post\">
-        <tr><th colspan = \"". (1+$images) ."\" bgcolor=\"#cccccc\">Produkt</th>
+        <tr><th colspan = \"". (1+$obrazek) ."\" bgcolor=\"#cccccc\">Produkt</th>
         <th bgcolor=\"#cccccc\">Cena</th>
         <th bgcolor=\"#cccccc\">Ilość</th>
         <th bgcolor=\"#cccccc\">Wartość</th>
@@ -370,7 +370,7 @@ function wyswietl_koszyk($koszyk, $zmiana = true, $images = 1) {
   foreach ($koszyk as $isbn => $ilosc) {
     $produkt = pobierz_dane_produktu($isbn);
     echo "<tr>";
-    if($images ==true) {
+    if($obrazek ==true) {
       echo "<td align = \"left\">";
       if (file_exists("images/{$isbn}.jpg")) {
          $wielkosc = GetImageSize("images/{$isbn}.jpg");
@@ -399,7 +399,7 @@ function wyswietl_koszyk($koszyk, $zmiana = true, $images = 1) {
   }
   // wyświetl wiersz sumy
   echo "<tr>
-          <th colspan= \"". (2+$images) ." bgcolor=\"#cccccc\">&nbsp;</td>
+          <th colspan= \"". (2+$obrazek) ." bgcolor=\"#cccccc\">&nbsp;</td>
           <th align= \"center\" bgcolor=\"#cccccc\">
               ".htmlspecialchars($_SESSION['produkty'])."
           </th>
@@ -410,10 +410,10 @@ function wyswietl_koszyk($koszyk, $zmiana = true, $images = 1) {
   // wyświetl przycisk zapisujący zmiany
   if($zmiana == true) {
     echo "<tr>
-            <td colspan=\"". (2+$images) ."\">&nbsp;</td>
+            <td colspan=\"". (2+$obrazek) ."\">&nbsp;</td>
             <td align=\"center\">
               <input type=\"hidden\" name=\"zapisz\" value=\"true\" />
-              <input type=\"image\" src=\"img/zapisz-zmiany.png\"
+              <input type=\"image\" src=\"images/zapisz-zmiany.png\"
                      border=\"0\" alt=\"Zapisz zmiany\">
             </td>
             <td>&nbsp;</td>
@@ -454,21 +454,21 @@ function wyswietl_menu_admin() {
 
 function wyswietl_przycisk($cel, $obrazek, $alt) {
   echo "<div align=\"center\"><a href=\"$cel\">
-        <img src=\"img/$obrazek".".png\"
+        <img src=\"images/$obrazek".".png\"
         alt=\"".$alt."\" border=\"0\" height = \"50\"
         width = \"150\"></a></div>";
 }
 
 function wyswietl_form_przycisk($obrazek, $alt) {
   echo "<div align=\"center\"><input type = \"image\"
-        src=\"img/$obrazek".".png\"
+        src=\"images/$obrazek".".png\"
         alt=\"".$alt."\" border=\"0\" height = \"50\"
         width = \"135\"/></div>";
 }
 
 function wyswietl_przycisk_formularza($cel, $obrazek, $alt) {
   echo "<div align=\"center\"><a href=\"$cel\">
-        <img src=\"img/$obrazek".".png\"
+        <img src=\"images/$obrazek".".png\"
         alt=\"".$alt."\" border=\"0\" height = \"50\"
         width = \"150\"></a></div>";
 }

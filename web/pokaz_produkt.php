@@ -41,7 +41,7 @@
 					<br />
 						<a href='pokaz_kosz.php'>
 							<div class='basket'>
-								<img style='width: 30px;' src='img/koszyk.png'>
+								<img style='width: 30px;' src='images/koszyk.png'>
                                 <span class='red'>= ".$_SESSION['produkty']."(".number_format($_SESSION['calkowita_wartosc'],2)." PLN)</span>
 							</div>
 						</a>

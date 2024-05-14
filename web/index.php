@@ -57,7 +57,7 @@
 						Ilość produktów w
 					</span>
 					<a href='pokaz_kosz.php'>
-						<img style='width: 35px;' src='img/koszyk.png'>
+						<img style='width: 35px;' src='images/koszyk.png'>
                         <span class='red'>= ".$_SESSION['produkty']."(".number_format($_SESSION['calkowita_wartosc'],2)." PLN)</span>
 					</a>
 			  </div>";
