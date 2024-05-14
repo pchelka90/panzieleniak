@@ -472,7 +472,7 @@ a {
 }
 
 a:hover {
-  color: #c34f4f;
+  color: #c34f4f !important;
   text-decoration: underline;
 }
 
