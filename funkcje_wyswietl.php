@@ -20,7 +20,7 @@
 
 function tworz_stopke_html() {
   // wyświetlenie stopki HTML
-  echo "<div style='float:lefty'>
+  echo "<div style='lefty'>
           <a href='panzieleniak.php'>panzieleniak.pl</a>
           <br />
 		      <a href='mailto:bartlomiejbronkowski90@gmail.com'>kontakt@panzieleniak.pl</a>
