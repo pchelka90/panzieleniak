@@ -19,7 +19,8 @@
 }
 
 function tworz_stopke_html() {
-  echo "<div class='lefty'>
+  echo "<div class='cleaner'></div>
+  <div class='lefty'>
           <a href='index.php'>panzieleniak.pl</a>
           <br />
 		      <a href='mailto:bartlomiejbronkowski90@gmail.com'>kontakt@panzieleniak.pl</a>

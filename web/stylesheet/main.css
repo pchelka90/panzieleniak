@@ -9,7 +9,7 @@
 }
 
 body {
-  background: url('images/tileable_wood_texture.WebP') format('.WebP');
+  background: url(images/tileable_wood_texture.WebP);
   font-family: 'latoitalic', sans-serif;
   max-width: 100%;
   height: 100%;
@@ -74,7 +74,7 @@ input {
   width: 13.25rem;
   height: auto;
   margin: 2px;
-  background: url(img/big_box_bg_30.png);
+  background: url(images/big_box_bg_30.png);
 }
 
 .icon-search-1 {
@@ -239,7 +239,7 @@ hr {
   text-decoration: none;
   width: 80px;
   height: 33px;
-  background: url(img/green_button.png);
+  background: url(images/green_button.png);
   display: block;
   text-align: center;
   line-height: 32px;
@@ -441,7 +441,7 @@ hr {
 
 .big_box_off {
   margin: 1px;
-  background: url(img/big_box_bg_30.png);
+  background: url(images/big_box_bg_30.png);
   border: 5px solid #e4e0d0;
 }
 
