@@ -467,7 +467,7 @@ a {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
-  color: #0b6c20;
+  color: #0b6c20 !important;
   text-decoration: none;
 }
 
