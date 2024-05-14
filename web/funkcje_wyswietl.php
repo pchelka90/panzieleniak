@@ -17,9 +17,7 @@
     tworz_tytul_html($tytul);
   }
 }
-?>
 
-<?php
 function tworz_stopke_html() {
   echo "<div class='lefty'>
           <a href='index.php'>panzieleniak.pl</a>
@@ -455,24 +453,24 @@ function wyswietl_menu_admin() {
 }
 
 function wyswietl_przycisk($cel, $obrazek, $alt) {
-  echo "<div align=\"center\"><a href=\"$cel\">
+  echo '<div align=\"center\"><a href=\"$cel\">
         <img src=\"images/$obrazek".".png\"
         alt=\"".$alt."\" border=\"0\" height = \"50\"
-        width = \"150\"></a></div>";
+        width = \"150\"></a></div>';
 }
 
 function wyswietl_form_przycisk($obrazek, $alt) {
-  echo "<div align=\"center\"><input type = \"image\"
+  echo '<div align=\"center\"><input type = \"image\"
         src=\"images/$obrazek".".png\"
         alt=\"".$alt."\" border=\"0\" height = \"50\"
-        width = \"135\"/></div>";
+        width = \"135\"/></div>';
 }
 
 function wyswietl_przycisk_formularza($cel, $obrazek, $alt) {
-  echo "<div align=\"center\"><a href=\"$cel\">
+  echo '<div align=\"center\"><a href=\"$cel\">
         <img src=\"images/$obrazek".".png\"
         alt=\"".$alt."\" border=\"0\" height = \"50\"
-        width = \"150\"></a></div>";
+        width = \"150\"></a></div>';
 }
 
 ?>
