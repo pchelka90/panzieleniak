@@ -52,6 +52,7 @@
 }
 
 body {
+  background-image: url(panzieleniak/web/images/tileable_wood_texture.WebP);
   margin: 0;
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
