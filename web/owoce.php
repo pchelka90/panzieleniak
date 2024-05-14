@@ -170,7 +170,7 @@
 							<div class="ramkaproduktu">	
 									<div class="zdjproduktu">
 										<a href="pokaz_produkt.php?isbn=51">
-											<img src="obrazki/51.jpg"></img>
+											<img src="images/51.jpg"></img>
 										</a>
 										<br />
 										<h5>Ananas cały 1 szt.</h5>
@@ -180,7 +180,7 @@
 								<div class="ramkaproduktu">	
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=52">		
-												<img src="obrazki/52.jpg"></img>
+												<img src="images/52.jpg"></img>
 											</a>
 											<br />
 											<h5>Arbuz cały 1 szt.</h5>
@@ -191,7 +191,7 @@
 								<div class="ramkaproduktu">	
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=53">		
-												<img src="obrazki/53.jpg"></img>
+												<img src="images/53.jpg"></img>
 											</a>
 											<br />
 											<h5>Avokado zielone 1 szt.</h5>
@@ -201,7 +201,7 @@
                     	        <div class="ramkaproduktu">	
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=54">		
-												<img src="obrazki/54.jpg"></img>
+												<img src="images/54.jpg"></img>
 											</a>
 											<br />
 											<h5>Banany 1 kg.</h5>
@@ -211,7 +211,7 @@
                     	        <div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=55">		
-												<img src="obrazki/55.jpg"></img>
+												<img src="images/55.jpg"></img>
 											</a>
 											<br />
 											<h5>Cytryny 0,5kg.</h5>
@@ -221,7 +221,7 @@
                     	        <div class="ramkaproduktu">	
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=58">		
-												<img src="obrazki/58.jpg"></img>
+												<img src="images/58.jpg"></img>
 											</a>
 											<br />
 											<h5>Granat cały 1 szt.</h5>
@@ -235,7 +235,7 @@
                            <div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=56">		
-										<img src="obrazki/56.jpg"></img>
+										<img src="images/56.jpg"></img>
 									</a>
 									<br />
 									<h5>Grejpfruty 1 kg.</h5>
@@ -245,7 +245,7 @@
                            	<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=61">		
-										<img src="obrazki/61.jpg"></img>
+										<img src="images/61.jpg"></img>
 									</a>
 									<br />
 									<h5>Gruszki 1kg.</h5>
@@ -255,7 +255,7 @@
                             <div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=63">		
-										<img src="obrazki/63.jpg"></img>
+										<img src="images/63.jpg"></img>
 									</a>
 									<br />
 									<h5>Jabłka Champion 1kg.</h5>
@@ -265,7 +265,7 @@
                         	<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=64">		
-										<img src="obrazki/64.jpg"></img>
+										<img src="images/64.jpg"></img>
 									</a>
 									<br />
 									<h5>Jabłka Jonagored 1kg.</h5>
@@ -275,7 +275,7 @@
                            	<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=65">		
-										<img src="obrazki/65.jpg"></img>
+										<img src="images/65.jpg"></img>
 									</a>
 									<br />
 									<h5>Jabłka Ligole 1kg.</h5>
@@ -285,7 +285,7 @@
 							<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=62">		
-										<img src="obrazki/62.jpg"></img>
+										<img src="images/62.jpg"></img>
 									</a>
 									<br />
 									<h5>Kiwi 1 szt.</h5>
@@ -299,7 +299,7 @@
 							<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=59">		
-										<img src="obrazki/59.jpg"></img>
+										<img src="images/59.jpg"></img>
 									</a>
 									<br />
 									<h5>Limonka 1 szt.</h5>
@@ -309,7 +309,7 @@
                            	<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=68">		
-										<img src="obrazki/68.jpg"></img>
+										<img src="images/68.jpg"></img>
 									</a>
 									<br />
 									<h5>Maliny opakowanie 250g.</h5>
@@ -319,7 +319,7 @@
                             <div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=60">		
-										<img src="obrazki/60.jpg"></img>
+										<img src="images/60.jpg"></img>
 									</a>
 									<br />
 									<h5>Mandarynki 1kg.</h5>
@@ -329,7 +329,7 @@
                             <div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=57">		
-										<img src="obrazki/57.jpg"></img>
+										<img src="images/57.jpg"></img>
 									</a>
 									<br />
 									<h5>Pomarańcze 1kg.</h5>
@@ -339,7 +339,7 @@
                            	<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=66">		
-										<img src="obrazki/66.jpg"></img>
+										<img src="images/66.jpg"></img>
 									</a>
 									<br />
 									<h5>Winogrona jasne</h5>
@@ -349,7 +349,7 @@
                            	<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=67">		
-										<img src="obrazki/67.jpg"></img>
+										<img src="images/67.jpg"></img>
 									</a>
 									<br />
 									<h5>Winogrona różowe</h5>

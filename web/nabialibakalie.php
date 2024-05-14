@@ -149,7 +149,7 @@
 						<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=70">
-										<img src="obrazki/70.jpg"></img>
+										<img src="images/70.jpg"></img>
 									</a>
 									<br />
 									<h5>Ananas suszony<br>(opakowanie 200 g.)</h5>
@@ -159,7 +159,7 @@
 						<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=71">		
-										<img src="obrazki/71.jpg"></img>
+										<img src="images/71.jpg"></img>
 									</a>
 									<br />
 									<h5>Daktyle suszone<br>(opakowanie 200 g.)</h5>
@@ -169,7 +169,7 @@
                         <div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=76">		
-										<img src="obrazki/76.jpg"></img>
+										<img src="images/76.jpg"></img>
 									</a>
 									<br />
 									<h5>Migdały łuskane<br>(opakowanie 100 g.)</h5>
@@ -179,7 +179,7 @@
 	                    <div class="ramkaproduktu">
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=75">		
-										<img src="obrazki/75.jpg"></img>
+										<img src="images/75.jpg"></img>
 									</a>
 									<br />
 									<h5>Morele suszone<br>(opakowanie 200 g.)</h5>
@@ -189,7 +189,7 @@
                         <div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=83">		
-										<img src="obrazki/83.jpg"></img>
+										<img src="images/83.jpg"></img>
 									</a>
 									<br />
 									<h5>Orzechy laskowe<br>(opakowanie 100 g.)</h5>
@@ -199,7 +199,7 @@
                         <div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=84">		
-										<img src="obrazki/84.jpg"></img>
+										<img src="images/84.jpg"></img>
 									</a>
 									<br />
 									<h5>Orzechy nerkowca<br>(opakowanie 100g.)</h5>
@@ -212,7 +212,7 @@
 						<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=85">		
-										<img src="obrazki/85.jpg"></img>
+										<img src="images/85.jpg"></img>
 									</a>
 									<br />
 									<h5>Pestki dynii<br>(opakowanie 100 g.)</h5>
@@ -222,7 +222,7 @@
 						<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=82">		
-										<img src="obrazki/82.jpg"></img>
+										<img src="images/82.jpg"></img>
 									</a>
 									<br />
 									<h5>Pistacje solone<br>(opakowanie 100 g.)</h5>
@@ -232,7 +232,7 @@
 						<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=79">		
-										<img src="obrazki/79.jpg"></img>
+										<img src="images/79.jpg"></img>
 									</a>
 									<br />
 									<h5>Rodzynki<br>(opakowanie 200 g.)</h5>
@@ -242,7 +242,7 @@
             			<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=80">		
-										<img src="obrazki/80.jpg"></img>
+										<img src="images/80.jpg"></img>
 									</a>
 									<br />
 									<h5>Sezam łuskany<br>(opakowanie 100 g.)</h5>
@@ -252,7 +252,7 @@
                     	<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=81">		
-										<img src="obrazki/81.jpg"></img>
+										<img src="images/81.jpg"></img>
 									</a>
 									<br />
 									<h5>Słonecznik łuskany<br>(opakowanie 100g.)</h5>
@@ -262,7 +262,7 @@
                         <div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=86">		
-										<img src="obrazki/86.jpg"></img>
+										<img src="images/86.jpg"></img>
 									</a>
 									<br />
 									<h5>Wiórki kokosowe<br>(opakowanie 100 g.)</h5>
@@ -276,7 +276,7 @@
 						<div class="ramkaproduktu">	
 							<div class="zdjproduktu">
 								<a href="pokaz_produkt.php?isbn=78">		
-									<img src="obrazki/78.jpg"></img>
+									<img src="images/78.jpg"></img>
 								</a>
 								<br />
 								<h5>Żurawina suszona<br>(opakowanie 200 g.)</h5>
@@ -286,7 +286,7 @@
 						<div class="ramkaproduktu">	
 							<div class="zdjproduktu">
 								<a href="pokaz_produkt.php?isbn=87">
-									<img src="obrazki/87.jpg"></img>
+									<img src="images/87.jpg"></img>
 								</a>
 								<br />
 								<h5>Chrzan tarty "Babuni"<br>(słoik 180 g.)</h5>
@@ -296,7 +296,7 @@
 						<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=73">		
-										<img src="obrazki/73.jpg"></img>
+										<img src="images/73.jpg"></img>
 									</a>
 									<br />
 									<h5>Ekologiczne jaja<br>(opakowanie-10 szt.)</h5>
@@ -306,7 +306,7 @@
 						<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=72">		
-										<img src="obrazki/72.jpg"></img>
+										<img src="images/72.jpg"></img>
 									</a>
 									<br />
 									<h5>Jaja wolny wybieg Kl.L<br>(opakowanie-10 szt.)</h5>
@@ -316,7 +316,7 @@
 						<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=74">		
-										<img src="obrazki/74.jpg"></img>
+										<img src="images/74.jpg"></img>
 									</a>
 									<br />
 									<h5>Jajka przepiórcze<br>(opakowanie-18 szt.)</h5>
@@ -326,7 +326,7 @@
                         <div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=77">		
-										<img src="obrazki/77.jpg"></img>
+										<img src="images/77.jpg"></img>
 									</a>
 									<br />
 									<h5>Makaron<br>(opakowanie 250 g.)</h5>
@@ -340,7 +340,7 @@
 						<div class="ramkaproduktu">	
 								<div class="zdjproduktu">
 									<a href="pokaz_produkt.php?isbn=88">		
-										<img src="obrazki/88.jpg"></img>
+										<img src="images/88.jpg"></img>
 									</a>
 									<br />
 									<h5>Miód akacjowy<br>(słoik 400 g.)</h5>
@@ -350,7 +350,7 @@
                      	<div class="ramkaproduktu">
 							<div class="zdjproduktu">
 								<a href="pokaz_produkt.php?isbn=89">		
-									<img src="obrazki/89.jpg"></img>
+									<img src="images/89.jpg"></img>
 								</a>
 								<br />
 								<h5>Żur domowy<br>(słoik 290 g.)</h5>

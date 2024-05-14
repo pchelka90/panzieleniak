@@ -153,7 +153,7 @@ function wyswietl_produkty($tablica_produktow) {
     foreach ($tablica_produktow as $rzad)
     {
       $url = "pokaz_produkt.php?isbn=".($rzad['isbn']);
-      if (@file_exists("obrazki/".$rzad['isbn'].".jpg")) {
+      if (@file_exists("images/".$rzad['isbn'].".jpg")) {
         $tytul = "<div style='width:167px;float:left;margin:7px;text-align:center;
 				    border:1px solid #fff;padding:20px;
 		            -webkit-border--radius: 5px;
@@ -161,7 +161,7 @@ function wyswietl_produkty($tablica_produktow) {
 					-moz-border-radius: 5px;
 	                border-radius: 5px'>
 					    <div style='height:150px'>
-							<img src=\"obrazki/".($rzad['isbn']).".jpg\"></img><br />
+							<img src=\"images/".($rzad['isbn']).".jpg\"></img><br />
 		                </div>
 		         </div>";
         tworz_html_url($url, $tytul);
@@ -184,10 +184,10 @@ function wyswietl_dane_produktu($produkt) {
   if (is_array($produkt)) {
     echo "<div style='float:right'>";
     //wyświetlenie obrazka jeżeli istnieje
-    if (@file_exists("obrazki/".($produkt['isbn']).".jpg")) {
-      $wielkosc = GetImageSize("obrazki/".$produkt['isbn'].".jpg");
+    if (@file_exists("images/".($produkt['isbn']).".jpg")) {
+      $wielkosc = GetImageSize("images/".$produkt['isbn'].".jpg");
       if(($wielkosc[0] > 0) && ($wielkosc[1] > 0)) {
-        echo "<img src=\"obrazki/".$produkt['isbn'].".jpg\" style=\"border: 1px solid black\"/></div>";
+        echo "<img src=\"images/".$produkt['isbn'].".jpg\" style=\"border: 1px solid black\"/></div>";
       }
     }
 	echo "&nbsp;";
@@ -353,14 +353,14 @@ function wyswietl_form_karty($imie) {
 
 
 
-function wyswietl_koszyk($koszyk, $zmiana = true, $obrazki = 1) {
+function wyswietl_koszyk($koszyk, $zmiana = true, $images = 1) {
   // wyświetlenie zawartości koszyka
   // opcjonalnie pozwala na zmiany (true lub false)
-  // opcjonalnie dołącza obrazki(1 — tak, 0 — nie)
+  // opcjonalnie dołącza images(1 — tak, 0 — nie)
 
   echo "<table border = \"0\" width = \"100%\" cellspacing = \"0\">
         <form action = \"pokaz_kosz.php\" method = \"post\">
-        <tr><th colspan = \"". (1+$obrazki) ."\" bgcolor=\"#cccccc\">Produkt</th>
+        <tr><th colspan = \"". (1+$images) ."\" bgcolor=\"#cccccc\">Produkt</th>
         <th bgcolor=\"#cccccc\">Cena</th>
         <th bgcolor=\"#cccccc\">Ilość</th>
         <th bgcolor=\"#cccccc\">Wartość</th>
@@ -370,12 +370,12 @@ function wyswietl_koszyk($koszyk, $zmiana = true, $obrazki = 1) {
   foreach ($koszyk as $isbn => $ilosc) {
     $produkt = pobierz_dane_produktu($isbn);
     echo "<tr>";
-    if($obrazki ==true) {
+    if($images ==true) {
       echo "<td align = \"left\">";
-      if (file_exists("obrazki/{$isbn}.jpg")) {
-         $wielkosc = GetImageSize("obrazki/{$isbn}.jpg");
+      if (file_exists("images/{$isbn}.jpg")) {
+         $wielkosc = GetImageSize("images/{$isbn}.jpg");
          if(($wielkosc[0] > 0) && ($wielkosc[1] > 0)) {
-           echo "<img src=\"obrazki/".htmlspecialchars($isbn).".jpg\"
+           echo "<img src=\"images/".htmlspecialchars($isbn).".jpg\"
                  style=\"border:1px solid black\"
                  width = \"".($wielkosc[0]/3) ."\"
                  height = \"" .($wielkosc[1]/3) . "\"/>";
@@ -399,7 +399,7 @@ function wyswietl_koszyk($koszyk, $zmiana = true, $obrazki = 1) {
   }
   // wyświetl wiersz sumy
   echo "<tr>
-          <th colspan= \"". (2+$obrazki) ." bgcolor=\"#cccccc\">&nbsp;</td>
+          <th colspan= \"". (2+$images) ." bgcolor=\"#cccccc\">&nbsp;</td>
           <th align= \"center\" bgcolor=\"#cccccc\">
               ".htmlspecialchars($_SESSION['produkty'])."
           </th>
@@ -410,7 +410,7 @@ function wyswietl_koszyk($koszyk, $zmiana = true, $obrazki = 1) {
   // wyświetl przycisk zapisujący zmiany
   if($zmiana == true) {
     echo "<tr>
-            <td colspan=\"". (2+$obrazki) ."\">&nbsp;</td>
+            <td colspan=\"". (2+$images) ."\">&nbsp;</td>
             <td align=\"center\">
               <input type=\"hidden\" name=\"zapisz\" value=\"true\" />
               <input type=\"image\" src=\"img/zapisz-zmiany.png\"

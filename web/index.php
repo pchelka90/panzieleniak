@@ -18,7 +18,7 @@
 		<link rel="preload" href="font/lato-italic-webfont.woff" as="font" type="font/woff" crossorigin>
 		<link rel="preload" href="font/lato-italic-webfont.woff2" as="font" type="font/woff2" crossorigin>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link rel="apple-touch-icon" href="favicon.ico">
+		<link rel="apple-touch-icon" href="/favicon.ico">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 	</head>
 	
@@ -35,7 +35,7 @@
 				</button>
 				
 				<ul class="button-menu"><br>
-					<li><a href="panzieleniak.php" class="action-trash">Strona główna</a></li><br>
+					<li><a href="index.php" class="action-trash">Strona główna</a></li><br>
 					<li><a href="warzywa.php" class="action sZweryfikowany">Warzywa</a></li><br>
 					<li><a href="owoce.php" class="action sDuplikat">Owoce</a></li><br>
 					<li><a href="nabialibakalie.php" class="action sOdrzucony">Nabiał oraz bakalie</a></li><br>
@@ -124,10 +124,10 @@
 	<div class="cleaner"></div>
 
 	<div class="obrazki">
-		<a href="warzywa.php"><img class="warzywa" src="img/warzywa.WebP" alt="warzywa"></img></a>
-  <a href="owoce.php"><img class="owoce" src="img/owoce.WebP" alt="owoce"></img></a>
+		<a href="warzywa.php"><img class="warzywa" src="images/warzywa.WebP" alt="warzywa"></img></a>
+  <a href="owoce.php"><img class="owoce" src="images/owoce.WebP" alt="owoce"></img></a>
   <div class="bakalie">
-  	<a href="nabialibakalie.php"><img class="bakalie" src="img/bakalie.WebP" alt="bakalie"></img></a>
+  	<a href="nabialibakalie.php"><img class="bakalie" src="images/bakalie.WebP" alt="bakalie"></img></a>
 		</div>
 	</div>
 	<div class="cleaner"></div>

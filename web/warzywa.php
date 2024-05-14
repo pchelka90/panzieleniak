@@ -16,7 +16,6 @@
 		<link rel="stylesheet" href="stylesheet/main.css" type="text/css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 		<link rel="stylesheet" href="stylesheet/css/fontello.css" type="text/css">
-	
 	</head>
 	
 	<body>
@@ -164,7 +163,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=1">
-												<img src="obrazki/1.jpg"></img>
+												<img src="images/1.jpg"></img>
 											</a>
 											<h5>Bakłażan 1kg.</h5>
 											<div class="green_button" style="margin-left:auto;margin-right:auto">12,<span style="font-size:0.8em">50</span> zł</div>
@@ -173,7 +172,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=2">	
-												<img src="obrazki/2.jpg"></img>
+												<img src="images/2.jpg"></img>
 											</a>
 											<h5>Bataty - słodkie ziemniaki 1kg.</h5>
 											<div class="green_button" style="margin-left:auto;margin-right:auto">14,<span style="font-size:0.8em">00</span> zł</div>
@@ -182,7 +181,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=3">
-												<img src="obrazki/3.jpg"></img>
+												<img src="images/3.jpg"></img>
 											</a>
 											<h5>Marchew 1kg.</h5>
 											<div class="green_button" style="margin-left:auto;margin-right:auto">3,<span style="font-size:0.8em">50</span> zł</div>
@@ -191,7 +190,7 @@
 									<div class="ramkaproduktu">
 										 <div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=4">		
-												<img src="obrazki/4.jpg"></img>
+												<img src="images/4.jpg"></img>
 											</a>
 											<h5>Brokuły 1kg.</h5>
 											<div class="green_button" style="margin-left:auto;margin-right:auto">6,<span style="font-size:0.8em">00</span> zł</div>
@@ -200,7 +199,7 @@
 									 <div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=5">
-												<img src="obrazki/5.jpg"></img>
+												<img src="images/5.jpg"></img>
 											</a>
 											<h5>Buraki czerwone 1kg.</h5>
 											<div class="green_button" style="margin-left:auto;margin-right:auto">3,<span style="font-size:0.8em">00</span> zł</div>
@@ -209,7 +208,7 @@
 									<div class="ramkaproduktu">
 										 <div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=6">
-												<img src="obrazki/6.jpg"></img>
+												<img src="images/6.jpg"></img>
 											</a>
 											<h5>Buraki ćwikłowe - podłużne 1kg.</h5>
 											<div class="green_button" style="margin-left:auto;margin-right:auto">3,<span style="font-size:0.8em">50</span> zł</div>
@@ -221,7 +220,7 @@
 									<div class="ramkaproduktu">
 										 <div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=7">
-												<img src="obrazki/7.jpg"></img>
+												<img src="images/7.jpg"></img>
 											</a>
 											<h5>Cebula 1kg.</h5>
 											<div class="green_button" style="margin-left:auto;margin-right:auto">3,<span style="font-size:0.8em">30</span> zł</div>
@@ -230,7 +229,7 @@
 									<div class="ramkaproduktu">
 										 <div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=8">		
-												<img src="obrazki/8.jpg"></img>
+												<img src="images/8.jpg"></img>
 											</a>
 											<h5>Cebula biała 1kg.</h5>
 											<div class="green_button" style="margin-left:auto;margin-right:auto">7,<span style="font-size:0.8em">50</span> zł</div>
@@ -239,7 +238,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=49">
-												<img src="obrazki/49.jpg"></img>
+												<img src="images/49.jpg"></img>
 											</a>
 											<h5>Włoszczyzna pęczek 1szt.</h5>
 											<div class="green_button" style="margin-left:auto;margin-right:auto">6,<span style="font-size:0.8em">00</span> zł</div>
@@ -248,7 +247,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=10">		
-												<img src="obrazki/10.jpg"></img>
+												<img src="images/10.jpg"></img>
 											</a>
 											<h5>Cukinia zielona 1kg.</h5>
 											<div class="green_button" style="margin-left:auto;margin-right:auto">16,<span style="font-size:0.8em">00</span> zł</div>
@@ -257,7 +256,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=11">		
-												<img src="obrazki/11.jpg"></img>
+												<img src="images/11.jpg"></img>
 											</a>
 											<h5>Cykoria 0,5kg.</h5>
 											<div class="green_button" style="margin-left:auto;margin-right:auto">6,<span style="font-size:0.8em">00</span> zł</div>
@@ -266,7 +265,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=12">		
-												<img src="obrazki/12.jpg"></img>
+												<img src="images/12.jpg"></img>
 											</a>
 											<h5>Cykoria czerwona 200g.</h5>
 											<div class="green_button" style="margin-left:auto;margin-right:auto">7,<span style="font-size:0.8em">50</span> zł</div>
@@ -278,7 +277,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=13">
-												<img src="obrazki/13.jpg"></img>
+												<img src="images/13.jpg"></img>
 											</a>
 											<br />
 											<h5>Czosnek 1szt.</h5>
@@ -288,7 +287,7 @@
 									<div class="ramkaproduktu">
 										 <div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=15">
-												<img src="obrazki/15.jpg"></img>
+												<img src="images/15.jpg"></img>
 											</a>
 											<br />
 											<h5>Dynia 1kg.</h5>
@@ -298,7 +297,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=16">
-												<img src="obrazki/16.jpg"></img>
+												<img src="images/16.jpg"></img>
 											</a>
 											<br />
 											<h5>Dynia Piżmowa - Butternut 1szt.</h5>
@@ -308,7 +307,7 @@
 									<div class="ramkaproduktu">
 										 <div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=17">
-												<img src="obrazki/17.jpg"></img>
+												<img src="images/17.jpg"></img>
 											</a>
 											<br />
 											<h5>Fasolka zielona 500g.</h5>
@@ -318,7 +317,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=14">
-												<img src="obrazki/14.jpg"></img>
+												<img src="images/14.jpg"></img>
 											</a>
 											<br />
 											<h5>Groszek zielony 250g.</h5>
@@ -328,7 +327,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=18">
-												<img src="obrazki/18.jpg"></img>
+												<img src="images/18.jpg"></img>
 											</a>
 											<br />
 											<h5>Imbir - korzeń 100g.</h5>
@@ -341,7 +340,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=19">		
-												<img src="obrazki/19.jpg"></img>
+												<img src="images/19.jpg"></img>
 											</a>
 											<br />
 											<h5>Kalafior 1szt.</h5>
@@ -351,7 +350,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=20">
-												<img src="obrazki/20.jpg"></img>
+												<img src="images/20.jpg"></img>
 											</a>
 											<br />
 											<h5>Kalarepa 1szt.</h5>
@@ -361,7 +360,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=21">
-												<img src="obrazki/21.jpg"></img>
+												<img src="images/21.jpg"></img>
 											</a>
 											<br />
 											<h5>Kapusta biała 1szt.</h5>
@@ -371,7 +370,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=22">
-												<img src="obrazki/22.jpg"></img>
+												<img src="images/22.jpg"></img>
 											</a>
 											<br />
 											<h5>Kapusta biała kiszona 0,5kg.</h5>
@@ -381,7 +380,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=23">
-												<img src="obrazki/23.jpg"></img>
+												<img src="images/23.jpg"></img>
 											</a>
 											<br />
 											<h5>Kapusta czerwona 1szt.</h5>
@@ -391,7 +390,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=24">
-												<img src="obrazki/24.jpg"></img>
+												<img src="images/24.jpg"></img>
 											</a>
 											<br />
 											<h5>Kapusta czerwona kiszona 0,5kg.</h5>
@@ -404,7 +403,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=25">
-												<img src="obrazki/25.jpg"></img>
+												<img src="images/25.jpg"></img>
 											</a>
 											<br />
 											<h5>Kapusta pekińska ok. 800 - 1000g.</h5>
@@ -414,7 +413,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=26">
-												<img src="obrazki/26.jpg"></img>
+												<img src="images/26.jpg"></img>
 											</a>
 											<br />
 											<h5>Karczochy 1kg.</h5>
@@ -424,7 +423,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=27">
-												<img src="obrazki/27.jpg"></img>
+												<img src="images/27.jpg"></img>
 											</a>
 											<br />
 											<h5>Koper pęczek 1szt.</h5>
@@ -434,7 +433,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=28">
-												<img src="obrazki/28.jpg"></img>
+												<img src="images/28.jpg"></img>
 											</a>
 											<br />
 											<h5>Natka pietruszki 1szt.</h5>
@@ -444,7 +443,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=29">
-												<img src="obrazki/29.jpg"></img>
+												<img src="images/29.jpg"></img>
 											</a>
 											<br />
 											<h5>Ogórek szklarniowy 1kg.</h5>
@@ -454,7 +453,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=30">
-												<img src="obrazki/30.jpg"></img>
+												<img src="images/30.jpg"></img>
 											</a>
 											<br />
 											<h5>Papryka czerwona 0,5kg.</h5>
@@ -467,7 +466,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=31">
-												<img src="obrazki/31.jpg"></img>
+												<img src="images/31.jpg"></img>
 											</a>
 											<br />
 											<h5>Papryka zielona 0,5 kg.</h5>
@@ -477,7 +476,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=32">
-												<img src="obrazki/32.jpg"></img>
+												<img src="images/32.jpg"></img>
 											</a>
 											<br />
 											<h5>Papryka żółta 0,5 kg.</h5>
@@ -487,7 +486,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=33">
-												<img src="obrazki/33.jpg"></img>
+												<img src="images/33.jpg"></img>
 											</a>
 											<br />
 											<h5>Pieczarki 0,5kg.</h5>
@@ -497,7 +496,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=34">
-												<img src="obrazki/34.jpg"></img>
+												<img src="images/34.jpg"></img>
 											</a>
 											<br />
 											<h5>Pietruszka 0,5 kg.</h5>
@@ -507,7 +506,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=35">
-												<img src="obrazki/35.jpg"></img>
+												<img src="images/35.jpg"></img>
 											</a>
 											<br />
 											<h5>Pomidory 1kg.</h5>
@@ -517,7 +516,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=36">
-												<img src="obrazki/36.jpg"></img>
+												<img src="images/36.jpg"></img>
 											</a>
 											<br />
 											<h5>Por 1 szt.</h5>
@@ -530,7 +529,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=37">
-												<img src="obrazki/37.jpg"></img>
+												<img src="images/37.jpg"></img>
 											</a>
 											<br />
 											<h5>Rzepa czarna 0,5 kg.</h5>
@@ -540,7 +539,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=38">
-												<img src="obrazki/38.jpg"></img>
+												<img src="images/38.jpg"></img>
 											</a>
 											<br />
 											<h5>Rzodkiew biała 1szt.</h5>
@@ -550,7 +549,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=39">
-												<img src="obrazki/39.jpg"></img>
+												<img src="images/39.jpg"></img>
 											</a>
 											<br />
 											<h5>Rzodkiewka pęczek 1 szt.</h5>
@@ -560,7 +559,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=44">
-												<img src="obrazki/44.jpg"></img>
+												<img src="images/44.jpg"></img>
 											</a>
 											<br />
 											<h5>Sałata karbowana 1 szt.</h5>
@@ -570,7 +569,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=42">
-												<img src="obrazki/42.jpg"></img>
+												<img src="images/42.jpg"></img>
 											</a>
 											<br />
 											<h5>Sałata lodowa 1 szt.</h5>
@@ -580,7 +579,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=43">
-												<img src="obrazki/43.jpg"></img>
+												<img src="images/43.jpg"></img>
 											</a>
 											<br />
 											<h5>Sałata masłowa 1 szt.</h5>
@@ -593,7 +592,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=45">
-												<img src="obrazki/45.jpg"></img>
+												<img src="images/45.jpg"></img>
 											</a>
 											<br />
 											<h5>Sałata rzymska 1 szt.</h5>
@@ -603,7 +602,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=46">
-												<img src="obrazki/46.jpg"></img>
+												<img src="images/46.jpg"></img>
 											</a>
 											<br />
 											<h5>Seler 0,5 kg.</h5>
@@ -613,7 +612,7 @@
 									<div class="ramkaproduktu">
 										<div class="zdjproduktu">
 											<a href="pokaz_produkt.php?isbn=47">
-												<img src="obrazki/47.jpg"></img>
+												<img src="images/47.jpg"></img>
 											</a>
 											<br />
 											<h5>Szczypior dymka 1 szt.</h5>
@@ -623,7 +622,7 @@
 											<div class="ramkaproduktu">
 												<div class="zdjproduktu">
 													<a href="pokaz_produkt.php?isbn=41">
-														<img src="obrazki/41.jpg"></img>
+														<img src="images/41.jpg"></img>
 													</a>
 													<br/>
 													<h5>Szparagi białe 500g.</h5>
@@ -633,7 +632,7 @@
 											<div class="ramkaproduktu">
 												<div class="zdjproduktu">
 													<a href="pokaz_produkt.php?isbn=40">
-														<img src="obrazki/40.jpg"></img>
+														<img src="images/40.jpg"></img>
 													</a>
 													<br />
 													<h5>Szparagi zielone 500g.</h5>
@@ -643,7 +642,7 @@
 											<div class="ramkaproduktu">
 												<div class="zdjproduktu">
 													<a href="pokaz_produkt.php?isbn=48">
-														<img src="obrazki/48.jpg"></img>
+														<img src="images/48.jpg"></img>
 													</a>
 													<br />
 													<h5>Topinambur 1 szt.</h5>
@@ -656,7 +655,7 @@
 											<div class="ramkaproduktu">
 												<div class="zdjproduktu">
 													<a href="pokaz_produkt.php?isbn=50">
-														<img src="obrazki/50.jpg"></img>
+														<img src="images/50.jpg"></img>
 													</a>
 													<br />
 													<h5>Ziemniaki 3kg.</h5>
