@@ -16,21 +16,8 @@
   if($tytul) {
     tworz_tytul_html($tytul);
   }
+  
 }
-
-function tworz_stopke_html() {
-  echo "<div class='cleaner'></div>
-  <div class='lefty'>
-          <a href='index.php'>panzieleniak.pl</a>
-          <br />
-		      <a href='mailto:bartlomiejbronkowski90@gmail.com'>kontakt@panzieleniak.pl</a>
-          <br />
-		      +48 536 065 344
-        </div>
-        <div style='float:right'>panzieleniak&copy;wszelkie prawa zastrzeżone
-        <br />
-	      kreacja: <a href='https://pchelka90.github.io/portfolio-website/' target='_blank'>Bartłomiej Bronkowski - portfolio</a>
-	      </div>"
 ?>
 
 	    
@@ -103,8 +90,6 @@ function tworz_stopke_html() {
 </body>
 </html>
 <?php
-}
-
 function tworz_tytul_html($naglowek) {
   // wyświetlenie nagłówka
 ?>
@@ -472,6 +457,20 @@ function wyswietl_przycisk_formularza($cel, $obrazek, $alt) {
         <img src=\"images/$obrazek".".png\"
         alt=\"".$alt."\" border=\"0\" height = \"50\"
         width = \"150\"></a></div>';
+}
+
+function tworz_stopke_html() {
+  echo '<div class="lefty">
+          <a href="index.php">panzieleniak.pl</a>
+          <br />
+		      <a href="mailto:bartlomiejbronkowski90@gmail.com">kontakt@panzieleniak.pl</a>
+          <br />
+		      +48 536 065 344
+        </div>
+        <div style="float:right">panzieleniak&copy;wszelkie prawa zastrzeżone
+        <br />
+	      kreacja: <a href=:https://pchelka90.github.io/portfolio-website/" target="_blank">Bartłomiej Bronkowski - portfolio</a>
+	      </div>';
 }
 
 ?>
