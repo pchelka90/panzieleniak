@@ -437,27 +437,34 @@ function wyswietl_menu_admin() {
 }
 
 function wyswietl_przycisk($cel, $obrazek, $alt) {
+  ?>
   echo '<div align=\"center\"><a href=\"$cel\">
         <img src=\"images/$obrazek".".png\"
         alt=\"".$alt."\" border=\"0\" height = \"50\"
         width = \"150\"></a></div>';
+        <?php
 }
 
 function wyswietl_form_przycisk($obrazek, $alt) {
+  ?>
   echo '<div align=\"center\"><input type = \"image\"
         src=\"images/$obrazek".".png\"
         alt=\"".$alt."\" border=\"0\" height = \"50\"
         width = \"135\"/></div>';
+        <?php
 }
 
 function wyswietl_przycisk_formularza($cel, $obrazek, $alt) {
+  ?>
   echo '<div align=\"center\"><a href=\"$cel\">
         <img src=\"images/$obrazek".".png\"
         alt=\"".$alt."\" border=\"0\" height = \"50\"
         width = \"150\"></a></div>';
+        <?php
 }
 
 function tworz_stopke_html() {
+  ?>
   echo '<div class="lefty">
           <a href="index.php">panzieleniak.pl</a>
           <br />
@@ -469,6 +476,7 @@ function tworz_stopke_html() {
         <br />
 	      kreacja: <a href=:https://pchelka90.github.io/portfolio-website/" target="_blank">Bartłomiej Bronkowski - portfolio</a>
 	      </div>';
+        <?php
 }
 
 ?>
