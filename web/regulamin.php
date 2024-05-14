@@ -13,8 +13,8 @@
 		<meta name="keywords" content="warzywniak wrocław, warzywniak na dowóz, świeże warzywa i owoce na dowóz, warzywa dowóz wrocław, warzywa i owoce dowóz wrocław, warzywniak zakupy online, świeże warzywa i owoce zakupy online, warzywa i owoce online, warzywa online, owoce online" />
 			
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-		<link rel="stylesheet" href="style.css" type="text/css">
-		<link rel="stylesheet" href="css/fontello.css" type="text/css">
+		<link rel="stylesheet" href="stylesheet/main.css" type="text/css">
+		<link rel="stylesheet" href="stylesheetcss/fontello.css" type="text/css">
                 <link href='http://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         
 </head>

@@ -53,4 +53,6 @@
         return $output;
     }
 
+    tworz_stopke_html();
+
 ?>
