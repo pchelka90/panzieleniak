@@ -16,8 +16,6 @@
   if($tytul) {
     tworz_tytul_html($tytul);
   }
-  
-}
 ?>
 
 	    
