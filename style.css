@@ -456,6 +456,10 @@ hr {
   color: #c34f4f;
 }
 
+.footer.a {
+  color: rgb(133, 243, 157);
+}
+
 a {
   margin: 0;
   padding: 0;
