@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url(/web/images/tileable_wood_texture.WebP);
+  background: url(panzieleniak/web/images/tileable_wood_texture.WebP);
   font-family: 'latoitalic', sans-serif;
   max-width: 100%;
   height: 100%;
