@@ -698,7 +698,7 @@
 						var $this = $(this);
 						if ($this.hasClass("hidden")) {
 							$(this).removeClass("hidden").addClass("visible");
-						}\
+						}
 					});
 				});
 			</script>
