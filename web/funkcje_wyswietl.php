@@ -17,7 +17,9 @@
     tworz_tytul_html($tytul);
   }
 }
+?>
 
+<?php
 function tworz_stopke_html() {
   echo "<div class='lefty'>
           <a href='index.php'>panzieleniak.pl</a>
