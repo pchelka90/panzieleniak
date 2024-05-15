@@ -166,7 +166,7 @@
 						</div>
 						<div class='koszyk'>
 							<a href='pokaz_kosz.php' class='basket'>
-								Twój koszyk <img src='img/koszyk.png' alt='koszyczek zakupowy'/>
+								Twój koszyk <img src='images/koszyk.png' alt='koszyk zakupowy'/>
 							</a>";
 				  echo "</div>
 						<div class='wartosc'>
@@ -188,13 +188,13 @@
 		echo "&nbsp;";
 		
 	} else {
-		echo "<div class='logowanie' style='float: right'>
+		echo "<div class='logowanie'>
 	
 				<p id='klik'>
 					<span class='logowanie'>Logowanie<i class='icon-user'></i></span>
 				</p>
 				
-				<div id='pokaz' class='small_box promo_box_big big_box_off lefty promo_box_big_bottom_left promo_box_big_top_right promo_box_big_top_left promo_box_big_bottom_right'>
+				<div id='pokaz' class='small_box promo_box_big big_box_off promo_box_big_bottom_left promo_box_big_top_right promo_box_big_top_left promo_box_big_bottom_right'>
 										
 					<form action='zaloguj.php' method='post'>
 											

@@ -4,3 +4,4 @@ web/
 .admin.php
 .dodaj_komentarz.php
 .fetch_comment.php
+.htaccess
