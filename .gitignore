@@ -1,6 +1,6 @@
 /vendor/
-/web
-connect.php
-admin.php
-dodaj_komentarz.php
-fetch_comment.php
+web/
+.connect.php
+.admin.php
+.dodaj_komentarz.php
+.fetch_comment.php
