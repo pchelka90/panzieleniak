@@ -1,6 +1,6 @@
 {
   "name": "PanZieleniak start on Heroku",
-  "description": "A PanZieleniak in PHP app",
+  "description": "PanZieleniak in PHP app",
   "repository": "https://github.com/pchelka90/panzieleniak",
   "addons": []
 }
