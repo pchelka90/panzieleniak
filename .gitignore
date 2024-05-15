@@ -1,5 +1,5 @@
 /vendor/
-web/
+/web/
 .connect.php
 .admin.php
 .dodaj_komentarz.php
