@@ -1,2 +1,7 @@
 /vendor/
 web/.htaccess*
+web/admin.php*
+web/connect.php*
+web/fetch_comment*
+web/dodaj_komentarz.php*
+web/functions/funkcje_bazy.php*
