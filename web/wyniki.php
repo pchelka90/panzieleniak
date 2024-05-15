@@ -18,7 +18,7 @@
 		<link rel="stylesheet" href="stylesheet/css/fontello.css" type="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   
-		<script type="text/javascript" src=".js/jquery-3.5.0.min.js"></script>
+		<script type="text/javascript" src="./js/jquery-3.5.0.min.js"></script>
 			<script type="text/javascript">
 				$(document).ready(function() {
 					$("#klik").click(function () {
