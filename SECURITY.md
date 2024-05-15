@@ -2,9 +2,9 @@ Security Policy
 
 ## Supported Versions
 
-    | Version | Supported |
-    | ------- | --------- |
-PHP |  8.1.1  | ✅        |
+    | Version       | Supported |
+    | --------------| --------- |
+    | PHP -> 8.1.1  | ✅        |
 
 ## Reporting a Vulnerability
 
