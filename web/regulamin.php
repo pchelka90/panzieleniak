@@ -159,10 +159,8 @@
 			</div>
 
 	</div>
-
-	<div class="kontener">
 		
-		<div class="promo_box_big promo_all_site_box_big big_box_off lefty promo_box_big_bottom_left promo_box_big_bottom_right">
+		<div class="promo_box_big promo_all_site_box_big big_box_off promo_box_big_bottom_left promo_box_big_bottom_right">
 				
 			<div class="hello">Regulamin</div>
 				
@@ -308,8 +306,6 @@
 			</div>
 		
 		</div>
-					
-	</div>
 	<div class="cleaner"></div>
 
 	<div class="footer">
@@ -319,14 +315,14 @@
 	</div>
 
   </div>
-	
-        <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
-			<script type="text/javascript">
-				$(document).ready(function() {
+		
+		<script type="text/javascript" src="./js/jquery-3.5.0.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
 				$("#klik").click(function () { 
-				$('#pokaz').slideToggle('normal');
+					$('#pokaz').slideToggle('normal');
 				});
-				});
+			});
 			</script>
 
 	<script type="text/javascript">

@@ -281,10 +281,8 @@
 			</div>
 
 	</div>
-	
-	<div class="kontener">
 		
-		<div class="promo_box_big promo_all_site_box_big big_box_off lefty promo_box_big_bottom_left promo_box_big_bottom_right">
+		<div class="promo_box_big promo_all_site_box_big big_box_off promo_box_big_bottom_left promo_box_big_bottom_right">
 				
 				<div class="hello">Rejestracja</div>
 				
@@ -511,8 +509,6 @@
 					</form>
 
 		</div>
-
-	</div>
 	<div class="cleaner"></div>
 
 	<div class="footer">
@@ -522,9 +518,8 @@
 	</div>
 
   </div>
-	
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-		<script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<script type="text/javascript" src="./js/jquery-3.5.0.min.js"></script>
 			<script type="text/javascript">
 				$(document).ready(function() {
 				$("#klik").click(function () { 

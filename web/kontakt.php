@@ -64,7 +64,7 @@
 		echo "&nbsp;";
 		
 	} else {
-		echo "<div class='logowanie' style='float: right'>
+		echo "<div class='logowanie'>
 	
 				<p id='klik'>
 					<span class='logowanie'>Logowanie<i class='icon-user'></i></span>
@@ -133,8 +133,7 @@
 						<input type="text" name="wyrazenie" placeholder="Szukaj produktu...">
 					</div>
 				</form>
-
-		        <br><br>
+				<br><br>
 			<a href="pytajoprodukt.php">Zapytaj o produkt</a>
 			<br><br><br>
 			<a href="komentarze.php">Napisz opinię!</a>
@@ -183,7 +182,7 @@
 </div>
 	
 
-		<script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+		<script type="text/javascript" src="./js/jquery-3.5.0.min.js"></script>
 			<script type="text/javascript">
 				$(document).ready(function() {
 				$("#klik").click(function () { 

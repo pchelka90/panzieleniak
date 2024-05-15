@@ -189,7 +189,7 @@
 					echo 'Brak parametrów wyszukiwania, spóbuj ponownie!';
                                         exit;
 				  }
-				  @ $db = new mysqli('localhost','','','');
+				  @ $db = new mysqli('localhost','postgres','Jebac997.','panzieleniak');
 				  
 				  if (mysqli_connect_errno())
 				  {

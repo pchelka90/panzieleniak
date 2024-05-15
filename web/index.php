@@ -22,7 +22,7 @@
 		<link rel="apple-touch-icon" href="/favicon.ico">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="./js/jquery-3.5.0.min.js"></script>
 		<script type="text/javascript">
 		$(document).ready(function() {
 			$("#klik").click(function () {
@@ -88,7 +88,7 @@
 			</div>
 			
 			<div class="menu">
-				<button class="action close" aria-label="Left Align">
+				<button class=".action .close" aria-label="Left Align">
 					<span class="material-icons" aria-hidden="true"><i class="material-icons icon-list-bullet"></i></span>
 				</button>
 				

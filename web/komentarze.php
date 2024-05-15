@@ -52,7 +52,7 @@
 
 			  </div>";
 	} else {
-		echo "<div class='logowanie' style='float: right'>
+		echo "<div class='logowanie'>
 	
 				<p id='klik'>
 					<span class='logowanie'>Logowanie<i class='icon-user'></i></span>
@@ -161,7 +161,7 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-3.5.0.min.js"></script>
 			<script type="text/javascript">
 				$(document).ready(function() {
 					$("#klik").click(function () { 

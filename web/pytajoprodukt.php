@@ -59,7 +59,7 @@
 		echo "&nbsp;";
 		
 	} else {
-		echo "<div class='logowanie' style='float: right'>
+		echo "<div class='logowanie'>
 	
 				<p id='klik'>
 					<span class='logowanie'>Logowanie<i class='icon-user'></i></span>
