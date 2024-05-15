@@ -5,3 +5,4 @@ web/connect.php*
 web/fetch_comment*
 web/dodaj_komentarz.php*
 web/functions/funkcje_bazy.php*
+web/functions/funkcje_admin.php*
