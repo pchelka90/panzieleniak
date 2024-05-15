@@ -389,7 +389,8 @@ hr {
 }
 
 .promo_all_site_box_big {
-  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
   height: auto;
 }
 

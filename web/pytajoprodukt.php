@@ -152,10 +152,8 @@
 		</div>
 
 	</div>
-
-	<div class="kontener">
 	
-		<div class="promo_box_big promo_all_site_box_big big_box_off lefty promo_box_big_bottom_left promo_box_big_bottom_right">
+		<div class="promo_box_big promo_all_site_box_big big_box_off promo_box_big_bottom_left promo_box_big_bottom_right">
 		
 			<div class="hello">Zapytaj o dostępność produktu</div>
 			
@@ -196,8 +194,6 @@
 				</form>
 					
 		</div>
-		   
-	</div>
 	<div class="cleaner"></div>
   
 	<div class="footer">

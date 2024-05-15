@@ -136,9 +136,8 @@
 			</div>
 
 	</div>
-	<div class="kontener">
 		
-		<div class="promo_box_big promo_all_site_box_big big_box_off promo_box_big_bottom_left lefty promo_box_big_bottom_right">
+		<div class="promo_box_big promo_all_site_box_big big_box_off promo_box_big_bottom_left promo_box_big_bottom_right">
 
 <?php
 $isbn = $_GET['isbn'];
@@ -172,7 +171,6 @@ if($produkt['idkat']) {
 	wyswietl_przycisk("pokaz_kosz.php?nowy=".urlencode($isbn), "dodaj-do-koszyka", "Dodaj ".htmlspecialchars($produkt['nazwa'])." do koszyka na zakupy");
 	wyswietl_przycisk($cel, "kontynuacja", "Kontynuacja zakupów");
 ?>
-	</div>
 	<div class="cleaner"></div>
 <?php
 	if(isset($_SESSION['uzyt_admin'])) {

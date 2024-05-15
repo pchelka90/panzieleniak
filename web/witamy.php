@@ -120,8 +120,6 @@
 		
 ?>
 	
-	<div class="kontener">
-	
 		<div class="hello">Witamy!</div>
 						
 		<div class="promo_box_big promo_all_site_box_big big_box_off lefty promo_box_big_top_left promo_box_big_bottom_left promo_box_big_top_right promo_box_big_bottom_right">
@@ -146,8 +144,6 @@
 			</div>
 						
 		</div>
-					
-	</div>
 	<div class="cleaner"></div>
 	
 	<div class="footer">

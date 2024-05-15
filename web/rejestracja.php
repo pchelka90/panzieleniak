@@ -497,7 +497,7 @@
 						?>
 						</table>
 						 <br />
-						<div class="g-recaptcha" data-sitekey="6LdeYeMZAAAAAOnk1NT3QVNMyaNdBXB9pPpkifKx"></div>
+						<div class="g-recaptcha" data-sitekey=""></div>
 						<?php
 							if (isset($_SESSION['e_bot']))
 							{
