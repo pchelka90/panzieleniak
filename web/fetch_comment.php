@@ -1,6 +1,15 @@
 <?php
+$connect = parse_url(getenv("DATABASE_URL"));
 
-    $connect = new PDO('mysql:host=localhost;dbname=panzieleniak', 'Jebac997.', 'postgres');
+$pdo = new PDO("pgsql:host=localhost;connectname=panzieleniak", "Jebac997.", "postgres" . sprintf(
+    "host=%s;port=%s;user=%s;password=%s;connectname=%s",
+    
+    $connect["host"],
+    $connect["port"],
+    $connect["user"],
+    $connect["pass"],
+    ltrim($connect["path"], "/")
+));
 
     $query = "SELECT * FROM tbl_comment WHERE parent_comment_id = '0' ORDER BY comment_id DESC";
 
