@@ -3,7 +3,7 @@
 	
 	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
 	{
-		header('Location:panzieleniak.php');
+		header('Location:index.php');
 		exit();
 	}
 

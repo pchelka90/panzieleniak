@@ -106,7 +106,6 @@
     return $idzam;
   }
 
-
   // sprawdzenie prawidłowości danych karty kredytowej
   function przetworz_karte( $dane ) {
     return TRUE;

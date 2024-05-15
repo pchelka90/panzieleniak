@@ -1,7 +1,7 @@
 <?php
 
    function lacz_bd() {
-      $wynik = mysqli_connect('localhost', '', '', '');
+      $wynik = mysqli_connect('localhost', 'postgres', 'Jebac997.', 'panzieleniak');
       if (!$wynik) {
          return false;
       }

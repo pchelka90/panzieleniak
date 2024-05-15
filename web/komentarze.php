@@ -193,7 +193,7 @@
 						event.preventDefault();
 						var form_data = $(this).serialize();
 						$.ajax({
-							url:"add_comment.php",
+							url:"dodaj_komentarz.php",
 							method:"POST",
 							data:form_data,
 							dataType:"JSON",

@@ -1,7 +1,8 @@
 <?php
 	session_start();
-        include ('funkcje_produktu_kz.php');
+	include ('funkcje_produktu_kz.php');
 ?>
+
 <!DOCTYPE HTML>
 <html lang="pl">
 	<head>
@@ -47,21 +48,20 @@
 			</div>
 
 <?php
-	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
-	{
+	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true)) {
 		echo "<div class='zakupy' style='font-size: 24px;'>
-				<span class='green'>
-					Witaj ".$_SESSION['imie']."!
-				</span>
-					<span class='red'>
-						Ilość produktów w
-					</span>
-					<a href='pokaz_kosz.php'>
-						<img style='width: 35px;' src='images/koszyk.png'>
-                        <span class='red'>= ".$_SESSION['produkty']."(".number_format($_SESSION['calkowita_wartosc'],2)." PLN)</span>
-					</a>
-			  </div>";
-	}
+									<span class='green'>
+										Witaj ".$_SESSION['imie']."!
+									</span>
+										<span class='red'>
+											Ilość produktów w
+										</span>
+										<a href='pokaz_kosz.php'>
+											<img style='width: 35px;' src='images/koszyk.png'></img>
+											<span class='red'>= ".$_SESSION['produkty']."(".number_format($_SESSION['calkowita_wartosc'],2)." PLN)</span>
+										</a>
+										</div>";
+									}
 ?>
 
 			<div class="right">
@@ -118,24 +118,28 @@
 			</div>
 
 	</div>
+
 <?php
 	if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
 ?>
+
 	<div class="cleaner"></div>
 
 	<div class="obrazki">
-		<a href="warzywa.php"><img class="warzywa" src="images/warzywa.WebP" alt="warzywa"></img></a>
-  <a href="owoce.php"><img class="owoce" src="images/owoce.WebP" alt="owoce"></img></a>
+		<a href="warzywa.php"><img class="warzywa" src="/images/warzywa.WebP" alt="warzywa"></img></a>
+  <a href="owoce.php"><img class="owoce" src="./images/owoce.WebP" alt="owoce"></img></a>
   <div class="bakalie">
-  	<a href="nabialibakalie.php"><img class="bakalie" src="images/bakalie.WebP" alt="bakalie"></img></a>
+  	<a href="nabialibakalie.php"><img class="bakalie" src="/images/bakalie.WebP" alt="bakalie"></img></a>
 		</div>
 	</div>
 	<div class="cleaner"></div>
+
 <?php
   if(isset($_SESSION['uzyt_admin'])) {
     wyswietl_przycisk("admin.php", "menu-admin", "Menu Administratora");
   }
 ?>
+
 	<div class="footer">
 		<?php
 			tworz_stopke_html();
