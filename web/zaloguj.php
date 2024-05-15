@@ -1,13 +1,16 @@
 <?php
 	session_start();	
 	
+	require_once('funkcje_produktu_kz.php');
+	require_once "connect.php";
+
+	tworz_naglowek_html("Administracja");
+
 	if ((!isset($_POST['telefon'])) || (!isset($_POST['pass'])))
 	{
 		header('Location: index.php');
 		exit();
 	}
-	
-	require_once "connect.php";
 	
 	$polaczenie = @ new mysqli($host, $db_user, $db_password, $db_name);
 	
@@ -42,7 +45,7 @@
 					
 					unset($_SESSION['blad']);	
 					$rezultat->free_result();
-					header('Location: panzieleniak.php');
+					header('Location: index.php');
 				}
 				else 
 				{

@@ -16,5 +16,9 @@
   }
 
   tworz_stopke_html();
+
+  session_unset();
+	
+	header('Location:index.php');
   
 ?>
