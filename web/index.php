@@ -30,7 +30,7 @@
 		});
 		</script>
 		
-		<script type="text/javascript">
+		<script src="/js/jquery-3.5.0.min.js" type="text/javascript">
 			$(document).ready(function(){
 				$('.logowanie').addClass("hidden");
 				$('.logowanie').click(function() {
@@ -42,7 +42,7 @@
 			});
 		</script>
 		
-		<script type="text/javascript">
+		<script src="/js/jquery-3.5.0.min.js" type="text/javascript">
 						onEventShowMenu = function(event) {
 						var menuId = event.data ? event.data.id : null;
 						var elBtn = jQuery(this);
