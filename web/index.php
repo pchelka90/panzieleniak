@@ -15,7 +15,6 @@
 
 		<link rel="stylesheet" href="stylesheet/main.css" type="text/css">
 		<link rel="stylesheet" href="stylesheet/css/fontello.css" type="text/css">
-		<link rel="canonical" href="https://panzieleniak-fab02f28ee11.herokuapp.com/"/>
 		<link rel="preload" href="stylesheet/font/lato-italic-webfont.woff" as="font" type="font/woff" crossorigin>
 		<link rel="preload" href="stylesheet/font/lato-italic-webfont.woff2" as="font" type="font/woff2" crossorigin>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
