@@ -1,6 +1,6 @@
 <?php
 
-require_once('funkcje_produktu_kz.php');
+require_once('/web/functions/funkcje_produktu_kz.php');
 session_start();
 
 	if (($_POST['nazwa_uz']) && ($_POST['haslo'])) {
