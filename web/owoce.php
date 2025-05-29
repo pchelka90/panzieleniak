@@ -443,7 +443,7 @@
 			});
 		</script>
 
-		<script type="text/javascript">
+		<script type="text/javascript" src="jquery-3.5.0.min.js">
 				$(document).ready(function(){
 					$('.logowanie, .info').addClass("hidden");
 
@@ -457,7 +457,7 @@
 					});
 				});
 		</script>
-	<script type="text/javascript">
+	<script type="text/javascript" src="./js/jquery-3.5.0.min.js">
             function toggle(sDivId) {
                 var oDiv = document.getElementById(sDivId);
                 oDiv.style.display = (oDiv.style.display == "none") ? "block" : "none";
