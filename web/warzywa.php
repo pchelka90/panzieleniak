@@ -39,7 +39,7 @@
 										<br />
 											<a href='pokaz_kosz.php'>
 												<div class='basket'>
-													<img style='width: 30px;' src='img/koszyk.png' />
+													<img style='width: 30px;' src='images/koszyk.png' />
 														<span class='red'>= ".$_SESSION['produkty']."(".number_format($_SESSION['calkowita_wartosc'],2)." PLN)</span>
 												</div>
 											</a>
@@ -677,8 +677,7 @@
 
 </div>
 
-		<script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
-		<script type="text/javascript">
+		<script type="text/javascript" src="js/jquery-3.5.0.min.js">
 			$(document).ready(function() {
 				$("#klik").click(function () {
 					$('#pokaz').slideToggle('normal');
@@ -686,33 +685,32 @@
 			});
 		</script>
 
-			<script type="text/javascript">
-				$(document).ready(function(){
-					$('.logowanie, .info').addClass("hidden");
-					$('.logowanie, .info').click(function() {
-						var $this = $(this);
-						if ($this.hasClass("hidden")) {
-							$(this).removeClass("hidden").addClass("visible");
-						}
-					});
+		<script type="text/javascript" src="js/jquery-3.5.0.min.js">
+			$(document).ready(function(){
+				$('.logowanie, .info').addClass("hidden");
+				$('.logowanie, .info').click(function() {
+					var $this = $(this);
+					if ($this.hasClass("hidden")) {
+						$(this).removeClass("hidden").addClass("visible");
+					}
 				});
-			</script>
+			});
+		</script>
 
-			<script type="text/javascript">
-				$(document).ready(function() {
-
-			  var n = $(".slider-slide-wrap").length,
+		<script type="text/javascript" src="js/jquery-3.5.0.min.js">
+			$(document).ready(function() {
+				var n = $(".slider-slide-wrap").length,
 				width = 725,
 				newwidth = width * n;
-
-			  $('.slide-wrap').css({
+				
+			$('.slide-wrap').css({
 				'width': newwidth
-			  });
+			});
 
-			  $(".slider-slide-wrap").each(function(i) {
+			$(".slider-slide-wrap").each(function(i) {
 				var thiswid = 725;
 				$(this).css({
-				  'left': thiswid * i
+					'left': thiswid * i
 				});
 
 			  });
@@ -753,15 +751,15 @@
 			});
 		</script>
 
-	<script type="text/javascript">
-		function toggle(sDivId) {
-			var oDiv = document.getElementById(sDivId);
-			oDiv.style.display = (oDiv.style.display == "none") ? "block" : "none";
-		}
- </script>
+		<script type="text/javascript" src="js/jquery-3.5.0.min.js">
+			function toggle(sDivId) {
+				var oDiv = document.getElementById(sDivId);
+				oDiv.style.display = (oDiv.style.display == "none") ? "block" : "none";
+			}
+		</script>
 	
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 
 		</body>
 

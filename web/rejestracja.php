@@ -69,7 +69,7 @@
 		
 		//Zapamiętaj wprowadzone dane
 		$_SESSION['fr_email'] = $email;
-		$_SESSION['fr_telefon'] = $email;
+		$_SESSION['fr_telefon'] = $telefon;
 		$_SESSION['fr_haslo1'] = $haslo1;
 		$_SESSION['fr_haslo2'] = $haslo2;
 		if (isset($_POST['regulamin'])) $_SESSION['fr_regulamin'] = true;
