@@ -391,7 +391,7 @@
 			});
 		</script>
 		
-		<script type="text/javascript">
+		<script type="text/javascript" src="./js/jquery-3.5.0.min.js">
 			$(document).ready(function() {
 				var n = $(".slider-slide-wrap").length,
 				width = 725,
@@ -443,7 +443,7 @@
 			});
 		</script>
 
-		<script type="text/javascript" src="jquery-3.5.0.min.js">
+		<script type="text/javascript" src="./js/jquery-3.5.0.min.js">
 				$(document).ready(function(){
 					$('.logowanie, .info').addClass("hidden");
 
