@@ -28,6 +28,27 @@
 			});
 		});
 		</script>
+
+		<script type="text/javascript"
+			$(document).ready(function(){
+ 
+				$('.categorydescriptioncontent p').each(function(i, el){
+				    if ( i === 0) {
+				    $('.showall').hide();   
+				    } else {
+				    $('.showall').show();
+				     $(this).hide();
+				    }
+				 
+				});
+				 
+				$(document).on("click", ".showall", function () {
+				$('.categorydescriptioncontent p').show();
+				$(this).remove();
+				});
+				 
+				});
+		</script>
 		
 		<script type="text/javascript">
 			$(document).ready(function(){
@@ -85,9 +106,9 @@
 				<a href="index.php"><span class="pan">pan</span><span class="zieleniak">zieleniak.pl</span></a>
 			</div>
 			
-			<div class="menu" id="pokaz">
+			<div class="menu categorydescriptioncontent">
 				<button class="action close" aria-label="Left Align">
-					<span id="klik" class="material-icons" aria-hidden="true"><i class="material-icons icon-list-bullet"></i></span>
+					<span class="material-icons" aria-hidden="true"><i class="material-icons icon-list-bullet"></i></span>
 				</button>
 				
 				<ul class="button-menu"><br>
@@ -101,6 +122,7 @@
 				</ul>
 			
 			</div>
+			<a class="showall" href="javascript:void(0)">&raquo; pokaż więcej</a>
 
 <?php
 	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true)) {
