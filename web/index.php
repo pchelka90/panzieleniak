@@ -122,7 +122,6 @@
 				</ul>
 			
 			</div>
-			<a class="showall" href="javascript:void(0)">&raquo; pokaż więcej</a>
 
 <?php
 	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true)) {
