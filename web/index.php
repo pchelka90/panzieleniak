@@ -106,7 +106,7 @@
 				<a href="index.php"><span class="pan">pan</span><span class="zieleniak">zieleniak.pl</span></a>
 			</div>
 			
-			<div class="menu categorydescriptioncontent">
+			<div class="categorydescriptioncontent">
 				<button class="action close" aria-label="Left Align">
 					<span class="material-icons" aria-hidden="true"><i class="material-icons icon-list-bullet"></i></span>
 				</button>
