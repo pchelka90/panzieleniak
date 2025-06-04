@@ -21,7 +21,7 @@
 		<link rel="apple-touch-icon" href="/favicon.ico">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-		<script src="/js/jquery-3.5.0.min.js" type="text/javascript">
+		<script type="text/javascript">
 		$(document).ready(function() {
 			$("#klik").click(function () {
 				$('#pokaz').slideToggle('slow');
@@ -29,7 +29,7 @@
 		});
 		</script>
 		
-		<script src="/js/jquery-3.5.0.min.js" type="text/javascript">
+		<script type="text/javascript">
 			$(document).ready(function(){
 				$('.logowanie').addClass("hidden");
 				$('.logowanie').click(function() {
@@ -41,7 +41,7 @@
 			});
 		</script>
 		
-		<script src="/js/jquery-3.5.0.min.js" type="text/javascript">
+		<script type="text/javascript">
 						onEventShowMenu = function(event) {
 						var menuId = event.data ? event.data.id : null;
 						var elBtn = jQuery(this);
