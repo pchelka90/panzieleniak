@@ -20,83 +20,6 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link rel="apple-touch-icon" href="/favicon.ico">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
-		<script type="text/javascript">
-		$(document).ready(function() {
-			$("#klik").click(function () {
-				$('#pokaz').slideToggle('slow');
-			});
-		});
-		</script>
-
-		<script type="text/javascript"
-			$(document).ready(function(){
- 
-				$('.categorydescriptioncontent p').each(function(i, el){
-				    if ( i === 0) {
-				    $('.showall').hide();   
-				    } else {
-				    $('.showall').show();
-				     $(this).hide();
-				    }
-				 
-				});
-				 
-				$(document).on("click", ".showall", function () {
-				$('.categorydescriptioncontent p').show();
-				$(this).remove();
-				});
-				 
-				});
-		</script>
-		
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$('.logowanie').addClass("hidden");
-				$('.logowanie').click(function() {
-					var $this = $(this);
-					if ($this.hasClass("hidden")) {
-						$(this).removeClass("hidden").addClass("visible");
-					}
-				});
-			});
-		</script>
-		
-		<script type="text/javascript">
-						onEventShowMenu = function(event) {
-						var menuId = event.data ? event.data.id : null;
-						var elBtn = jQuery(this);
-						var elMenu = menuId ? jQuery('#' + menuId) : elBtn.next('ul');
-					 
-						if (elMenu.is(':visible')) {
-							elMenu.hide();
-							return false;
-						}
-						if(!elMenu.data('inited')){
-							elMenu.css('min-width', elBtn.width())
-							elMenu.data('inited', true);
-						}
-						elMenu.show().position({
-							my: "left top",  at: "left bottom", of: elBtn
-						});
-						jQuery(document).one("click", function() {
-							elMenu.hide();
-						});
-						return false;
-					}
-					jQuery(function() {
-						jQuery( "action close" )
-						.button({
-							icons: {
-									primary: "ui-icon-power",
-									secondary: "ui-icon-triangle-1-s"
-							}
-						})
-						.click(onEventShowMenu)
-						;
-					});
-					</script>
-					
 	</head>
 	
 	<body>
@@ -223,8 +146,74 @@
 	</div>
 
   </div>
-		
-		<script src="/js/jquery-3.5.0.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$("#klik").click(function () {
+				$('#pokaz').slideToggle('slow');
+			});
+		});
+		</script>
+		<script type="text/javascript"
+			$(document).ready(function(){
+				$('.categorydescriptioncontent p').each(function(i, el){
+					if ( i === 0) {
+						$('.showall').hide();   
+					} else {
+				    		$('.showall').show();
+				     		$(this).hide();
+				    	}
+				});
+				$(document).on("click", ".showall", function () {
+					$('.categorydescriptioncontent p').show();
+					$(this).remove();
+				}); 
+			});
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.logowanie').addClass("hidden");
+				$('.logowanie').click(function() {
+					var $this = $(this);
+					if ($this.hasClass("hidden")) {
+						$(this).removeClass("hidden").addClass("visible");
+					}
+				});
+			});
+		</script>
+		<script type="text/javascript">
+			onEventShowMenu = function(event) {
+				var menuId = event.data ? event.data.id : null;
+				var elBtn = jQuery(this);
+				var elMenu = menuId ? jQuery('#' + menuId) : elBtn.next('ul');
+					 
+				if (elMenu.is(':visible')) {
+					elMenu.hide();
+					return false;
+				}
+				if(!elMenu.data('inited')){
+					elMenu.css('min-width', elBtn.width())
+					elMenu.data('inited', true);
+				}
+				elMenu.show().position({
+					my: "left top",  at: "left bottom", of: elBtn
+				});
+				jQuery(document).one("click", function() {
+					elMenu.hide();
+				});
+				return false;
+				}
+				jQuery(function() {
+					jQuery( "action close" )
+					.button({
+					icons: {
+						primary: "ui-icon-power",
+						secondary: "ui-icon-triangle-1-s"
+					}
+				})
+				.click(onEventShowMenu);
+			});
+		</script>
+		<script src="./js/jquery-3.5.0.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 
